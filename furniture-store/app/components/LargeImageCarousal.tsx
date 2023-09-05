@@ -1,4 +1,4 @@
-export default function ImageCarousal() {
+export default function LargeImageCarousal() {
     return (
       <>
         {/* Image Overlays Section: Overlay Slide Top */}

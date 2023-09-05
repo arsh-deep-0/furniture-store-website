@@ -1,6 +1,6 @@
 import ImageCarousal from "./ImageCarousal";
 
-export default function PageHeadersSimpleDark() {
+export default function Project() {
     return (
       <>
         {/* Page Header Section: Simple Dark */}

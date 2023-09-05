@@ -5,7 +5,6 @@ import Footer from "../components/Footer";
 import HeroContent from "../components/HeroContent";
 import LargeImageCarousal from "../components/LargeImageCarousal";
 import Logos from "../components/Logos";
-import PreFooter from "../components/PreFooter";
 import Project from "../components/Project";
 import Statistics from "../components/Statistics";
 
