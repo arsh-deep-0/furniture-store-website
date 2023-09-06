@@ -16,13 +16,19 @@ function Navbar() {
                 <div className="flex flex-col text-center md:flex-row md:items-center md:justify-between space-y-4 md:space-y-0 md:space-x-10">
                   <nav className="space-x-3 md:space-x-6">
                     <a href="#" className="text-sm font-semibold text-gray-900 hover:text-blue-600 dark:text-gray-100 dark:hover:text-blue-400">
-                      <span>Features</span>
+                      <span>Home</span>
                     </a>
                     <a href="#" className="text-sm font-semibold text-gray-900 hover:text-blue-600 dark:text-gray-100 dark:hover:text-blue-400">
-                      <span>Pricing</span>
+                      <span>About Us</span>
                     </a>
                     <a href="#" className="text-sm font-semibold text-gray-900 hover:text-blue-600 dark:text-gray-100 dark:hover:text-blue-400">
-                      <span>Support</span>
+                      <span>Gallery</span>
+                    </a>
+                    <a href="#" className="text-sm font-semibold text-gray-900 hover:text-blue-600 dark:text-gray-100 dark:hover:text-blue-400">
+                      <span>Services</span>
+                    </a>
+                    <a href="#" className="text-sm font-semibold text-gray-900 hover:text-blue-600 dark:text-gray-100 dark:hover:text-blue-400">
+                      <span>Contact Us</span>
                     </a>
                   </nav>
                   <div className="flex items-center justify-center space-x-2">
