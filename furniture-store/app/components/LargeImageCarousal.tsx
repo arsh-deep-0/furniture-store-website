@@ -3,11 +3,11 @@ export default function LargeImageCarousal() {
       <>
         {/* Image Overlays Section: Overlay Slide Top */}
         <div className="bg-white dark:text-gray-100 dark:bg-gray-900">
-          <div className="container xl:max-w-7xl mx-auto px-4 py-16 lg:px-8 lg:py-32 space-y-16">
+          <div className="container xl:max-w-7xl mx-auto px-4 py-8 lg:px-8 lg:py-8 space-y-16">
             <div className="grid grid-cols-1 md:grid-cols-3 gap-4 md:gap-8">
               {/* Item */}
               <div className="relative group rounded-lg bg-blue-900 overflow-hidden focus:outline-none focus:ring-4 focus:ring-blue-500 focus:ring-opacity-50 focus:ring-offset-2 focus-within:ring-4 focus-within:ring-blue-500 focus-within:ring-opacity-50 focus-within:ring-offset-2 dark:ring-offset-gray-900" tabIndex={0}>
-                <img src="https://cdn.tailkit.com/media/placeholders/photo-73F4pKoUkM0-800x600.jpg" alt="Image 1" />
+                <img src="https://dndkitchencabinets.com/wp-content/uploads/2022/06/h2-banner1.jpg" alt="Image 1" />
                 {/* Item Overlay */}
                 <div className="absolute inset-0 rounded flex flex-col items-center justify-center bg-blue-900 bg-opacity-80 transition duration-300 ease-out opacity-0 translate-y-full group-hover:opacity-100 group-focus:opacity-100 group-focus-within:opacity-100 group-hover:translate-y-0 group-focus:translate-y-0 group-focus-within:translate-y-0">
                   <div className="text-center">
@@ -29,7 +29,7 @@ export default function LargeImageCarousal() {
   
               {/* Item */}
               <div className="relative group rounded-lg bg-blue-900 overflow-hidden focus:outline-none focus:ring-4 focus:ring-blue-500 focus:ring-opacity-50 focus:ring-offset-2 focus-within:ring-4 focus-within:ring-blue-500 focus-within:ring-opacity-50 focus-within:ring-offset-2 dark:ring-offset-gray-900" tabIndex={0}>
-                <img src="https://cdn.tailkit.com/media/placeholders/photo-Bkci_8qcdvQ-800x600.jpg" alt="Image 2" />
+                <img src="https://dndkitchencabinets.com/wp-content/uploads/2022/06/h2-banner2.jpg" alt="Image 2" />
                 {/* Item Overlay */}
                 <div className="absolute inset-0 rounded flex flex-col items-center justify-center bg-blue-900 bg-opacity-80 transition duration-300 ease-out opacity-0 translate-y-full group-hover:opacity-100 group-focus:opacity-100 group-focus-within:opacity-100 group-hover:translate-y-0 group-focus:translate-y-0 group-focus-within:translate-y-0">
                   <div className="text-center">
@@ -51,7 +51,7 @@ export default function LargeImageCarousal() {
   
               {/* Item */}
               <div className="relative group rounded-lg bg-blue-900 overflow-hidden focus:outline-none focus:ring-4 focus:ring-blue-500 focus:ring-opacity-50 focus:ring-offset-2 focus-within:ring-4 focus-within:ring-blue-500 focus-within:ring-opacity-50 focus-within:ring-offset-2 dark:ring-offset-gray-900" tabIndex={0}>
-                <img src="https://cdn.tailkit.com/media/placeholders/photo-Y8lCoTRgHPE-800x600.jpg" alt="Image 3" />
+                <img src="https://dndkitchencabinets.com/wp-content/uploads/2022/06/h2-banner3.jpg" alt="Image 3" />
                 {/* Item Overlay */}
                 <div className="absolute inset-0 rounded flex flex-col items-center justify-center bg-blue-900 bg-opacity-80 transition duration-300 ease-out opacity-0 translate-y-full group-hover:opacity-100 group-focus:opacity-100 group-focus-within:opacity-100 group-hover:translate-y-0 group-focus:translate-y-0 group-focus-within:translate-y-0">
                   <div className="text-center">
