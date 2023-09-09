@@ -1,12 +1,12 @@
 import React from 'react'
-import AboutHeroContent from '../components/AboutHeroContent'
 import Footer from '../components/Footer'
 import AboutContent from '../components/AboutContent'
+import TopHeaderButtonless from '../components/TopHeaderButtonless'
 
 function About() {
   return (
     <>
-    <AboutHeroContent />
+    <TopHeaderButtonless />
     <AboutContent />
     <Footer />
     </>
