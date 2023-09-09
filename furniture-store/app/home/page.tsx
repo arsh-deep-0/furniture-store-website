@@ -1,4 +1,7 @@
+'use client';
 import About from "../components/About";
+import AboutContent from "../components/AboutContent";
+
 import Approach from "../components/Approach";
 import Features from "../components/Features";
 import Footer from "../components/Footer";
@@ -10,8 +13,9 @@ import Statistics from "../components/Statistics";
 
 export default function Home() {
     return (
-      <>
-        <HeroContent />
+      
+      <div className="bg-black">
+         <HeroContent />
         <About />
         <LargeImageCarousal />
         <Features />
@@ -20,7 +24,7 @@ export default function Home() {
         <Project />
         <Statistics />
         <Footer />
-
-      </>
+      </div>
+      
     )
   }

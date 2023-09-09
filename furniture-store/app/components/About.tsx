@@ -2,7 +2,7 @@ export default function About() {
     return (
       <>
         {/* Statistics Section: With Details Alternate */}
-        <div className="bg-white dark:text-gray-100 dark:bg-gray-900">
+        <div className="relative bg-white dark:text-gray-100 dark:bg-gray-900">
           <div className="container xl:max-w-7xl mx-auto px-4 py-16 lg:px-8 lg:py-32 space-y-10 lg:space-y-0 lg:flex lg:items-center lg:justify-between">
             {/* Stats */}
             <div className="grid grid-cols-1 sm:grid-cols-2 gap-4 md:gap-10 lg:w-1/2 lg:flex-none">
