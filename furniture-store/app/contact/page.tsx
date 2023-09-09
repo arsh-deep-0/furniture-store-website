@@ -1,11 +1,13 @@
+'use client'
 import React from 'react'
 import TopHeader from '../components/TopHeader'
 import Footer from '../components/Footer'
+import TopHeaderButtonless from '../components/TopHeaderButtonless'
 
 function Contact() {
   return (
     <>
-    <TopHeader />
+    <TopHeaderButtonless />
       {/* Contact Section: Split */}
       <div className="relative bg-gray-50 flex items-center overflow-hidden dark:text-gray-100 dark:bg-gray-900">
         <div className="absolute top-0 right-0 bottom-0 w-full lg:w-1/2 bg-white dark:bg-gray-800" />

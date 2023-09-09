@@ -1,11 +1,13 @@
+'use client'
 import React from 'react'
 import TopHeader from '../components/TopHeader'
 import Footer from '../components/Footer'
+import TopHeaderButtonless from '../components/TopHeaderButtonless'
 
 function Services() {
     return (
         <>
-            <TopHeader />
+            <TopHeaderButtonless/>
 
             {/* Blog List Section: In Grid */}
             <div className="bg-gray-100 dark:text-gray-100 dark:bg-gray-900">

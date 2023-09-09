@@ -29,21 +29,21 @@ function Navbar() {
                 </div>
                 <div className="flex flex-col text-center md:flex-row md:items-center md:justify-between space-y-4 md:space-y-0 md:space-x-10">
                   <nav className=" space-x-3 md:space-x-6">
-                    <a href="#" className="text-base font-helvetica  text-gray-900 hover:text-blue-600 dark:text-gray-100 dark:hover:text-blue-400">
+                    <a href="/" className="text-base font-helvetica  text-gray-900 hover:text-blue-600 dark:text-gray-100 dark:hover:text-blue-400">
                       <span>Home</span>
                     </a>
-                    <a href="#" className="text-base font-helvetica text-gray-900 hover:text-blue-600 dark:text-gray-100 dark:hover:text-blue-400">
+                    <a href="/about" className="text-base font-helvetica text-gray-900 hover:text-blue-600 dark:text-gray-100 dark:hover:text-blue-400">
                       <span>About Us</span>
                     </a>
-                    <a href="#" className="text-base font-helvetica text-gray-900 hover:text-blue-600 dark:text-gray-100 dark:hover:text-blue-400">
+                    <a href="/gallery" className="text-base font-helvetica text-gray-900 hover:text-blue-600 dark:text-gray-100 dark:hover:text-blue-400">
                       <span>Gallery</span>
                     </a>
-                    <a href="#" className="text-base font-helvetica text-gray-900 hover:text-blue-600 dark:text-gray-100 dark:hover:text-blue-400">
+                    <a href="/services" className="text-base font-helvetica text-gray-900 hover:text-blue-600 dark:text-gray-100 dark:hover:text-blue-400">
                       <span>Services</span>
                     </a>
-                    <a href="#" className="text-base font-helvetica text-gray-900 hover:text-blue-600 dark:text-gray-100 dark:hover:text-blue-400">
+                    <a href="/contact" className="text-base font-helvetica text-gray-900 hover:text-blue-600 dark:text-gray-100 dark:hover:text-blue-400">
                       <span>Contact Us</span>
-                    </a>
+                    </a> 
                   </nav>
                   <div className="  flex items-center justify-center space-x-2">
                     <a href="#" className="inline-flex justify-center items-center space-x-2 border font-helvetica rounded-lg px-3 py-2 leading-5 text-base border-gray-200 bg-gray-600 text-gray-800 hover:border-gray-300 hover:text-gray-900 hover:shadow-sm focus:ring focus:ring-gray-300 focus:ring-opacity-25 active:border-gray-200 active:shadow-none dark:border-gray-700 dark:bg-transparent dark:text-gray-300 dark:hover:border-gray-600 dark:hover:text-gray-200 dark:focus:ring-gray-600 dark:focus:ring-opacity-40 dark:active:border-gray-700">
