@@ -11,4 +11,16 @@
     height: 100vh; /* Set the desired height for the video background */
   }
 
+  .navbar-blue{
+    background-color: rgb(75, 85, 99);
+    z-index: 25;
+  }
+
+  .navbar{
+   z-index: 25;
+  }
+  .container{
+    overflow: hidden;
+  }
+
   

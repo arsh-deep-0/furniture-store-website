@@ -2,7 +2,7 @@ export default function Footer() {
   return (
     <>
       {/* Page Header Section: Simple Dark with Cover */}
-      <div className="dark bg-cover bg-bottom" style={{ backgroundImage: 'url("https://cdn.tailkit.com/media/placeholders/photo-Nyvq2juw4_o-1280x400.jpg")' }}>
+      <div className="footer dark bg-cover bg-bottom" style={{ backgroundImage: 'url("https://cdn.tailkit.com/media/placeholders/photo-Nyvq2juw4_o-1280x400.jpg")' }}>
         <div className="bg-white bg-opacity-90 dark:text-gray-100 dark:bg-gray-900/90">
           <div className="space-y-16 container xl:max-w-7xl mx-auto px-4 py-16 lg:px-8 lg:py-32">
             <div className="text-center">

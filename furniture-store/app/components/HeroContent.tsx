@@ -4,7 +4,9 @@ import TextTypingEffect from './typingText'
 import gsap from 'gsap'
 import { useEffect, useState } from 'react';
 import '../css/app.css'
+import { ScrollTrigger } from 'gsap/ScrollTrigger';
 
+gsap.registerPlugin(ScrollTrigger);
 
 function HeroContent() {
 
@@ -49,6 +51,18 @@ function HeroContent() {
       comeup(i);
     }
 
+    ScrollTrigger.create({
+      trigger: '.navbar',
+      start:'top top', 
+      endTrigger: 'footer', // Optional: Specify an element that ends pinning (e.g., a footer)
+      end: 'bottom top',
+      toggleClass:{targets:".navbar",className:"navbar-blue"},
+      toggleActions:"restart pause none reset",
+      pin:'.navbar',
+      scrub:true,
+      markers:true,
+    })
+
   }, []);
   return (
     <>
@@ -73,8 +87,8 @@ function HeroContent() {
 
           <Navbar />
           {/* Hero Content */}
-          <div className="relative text-center container xl:max-w-7xl mx-auto px-4 py-16 lg:px-8 lg:py-32">
-            <div className="font-frank h3 text-normal rounded bg-gray-100 border border-gray-200 font-medium inline-flex px-2 py-1 leading-4 mb-2 text-gray-200 bg-gray-700/50 border-gray-600/50">
+          <div className="relative center-box text-center container xl:max-w-7xl mx-auto px-4 py-16 lg:px-8 lg:py-32">
+            <div className="font-frank  h3 text-normal rounded bg-gray-100 border border-gray-200 font-medium inline-flex px-2 py-1 leading-4 mb-2 text-gray-200 bg-gray-700/50 border-gray-600/50">
               Elevate your space!
             </div>
             <TextTypingEffect />
