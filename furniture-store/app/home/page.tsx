@@ -10,6 +10,7 @@ import LargeImageCarousal from "../components/LargeImageCarousal";
 import Logos from "../components/Logos";
 import Project from "../components/Project";
 import Statistics from "../components/Statistics";
+import Testimonials from "../components/Testimonials";
 
 export default function Home() {
     return (
@@ -21,6 +22,7 @@ export default function Home() {
         <Features />
         <Logos />
         <Approach />
+        <Testimonials />
         <Project />
         <Statistics />
         <Footer />
