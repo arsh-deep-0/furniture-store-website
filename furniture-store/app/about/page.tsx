@@ -7,7 +7,7 @@ import TopHeaderButtonless from '../components/TopHeaderButtonless'
 function About() {
   return (
     <>
-    <TopHeaderButtonless />
+    <TopHeaderButtonless title="About Us"/>
     <AboutContent />
     <Footer />
     </>

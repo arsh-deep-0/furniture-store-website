@@ -5,7 +5,7 @@ function TopHeader() {
   return (
     <>
     {/* Hero Section: Image Cover with Header Actions Dark */}
-    <div className="dark bg-cover bg-bottom" style={{ backgroundImage: 'url("https://cdn.tailkit.com/media/placeholders/photo-Nyvq2juw4_o-1280x400.jpg")' }}>
+    <div className="dark bg-cover min-h-screen bg-bottom" style={{ backgroundImage: 'url("https://cdn.tailkit.com/media/placeholders/photo-Nyvq2juw4_o-1280x400.jpg")' }}>
         <div className="relative bg-transparent lg:bg-gradient-to-r backdrop-blur-sm bg-gray-900 bg-opacity-95 lg:bg-opacity-90 from-transparent via-gray-900 to-transparent">
 
           <Navbar />
