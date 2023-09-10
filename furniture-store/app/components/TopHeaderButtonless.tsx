@@ -1,7 +1,11 @@
 import React from 'react'
 import Navbar from './Navbar'
 
-function TopHeaderButtonless() {
+interface TopHeaderButtonlessProps {
+  title: string
+}
+
+function TopHeaderButtonless({title}: TopHeaderButtonlessProps) {
   return (
     <>
     {/* Hero Section: Image Cover with Header Actions Dark */}
@@ -12,10 +16,10 @@ function TopHeaderButtonless() {
             {/* Hero Content */}
             <div className="relative text-center container xl:max-w-7xl mx-auto px-4 py-16 lg:px-8 lg:py-32">
               <div className="text-sm rounded font-medium inline-flex px-2 py-1 leading-4 mb-2 uppercase">
-                Homepage &nbsp;&nbsp;&nbsp;/&nbsp;&nbsp;&nbsp; About
+                Homepage &nbsp;&nbsp;&nbsp;/&nbsp;&nbsp;&nbsp; {title}
               </div>
               <h1 className="text-7xl font-bold text-white">
-                About Us
+                {title}
               </h1>
               
               
