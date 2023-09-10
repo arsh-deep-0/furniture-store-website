@@ -5,7 +5,7 @@ import AboutContent from "../components/AboutContent";
 import Approach from "../components/Approach";
 import Features from "../components/Features";
 import Footer from "../components/Footer";
-import HeroContent from "../components/HeroContent";
+import HeroContent from "../components/TopHeader";
 import LargeImageCarousal from "../components/LargeImageCarousal";
 import Logos from "../components/Logos";
 import Project from "../components/Project";
