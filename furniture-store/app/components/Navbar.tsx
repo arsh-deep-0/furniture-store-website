@@ -14,9 +14,6 @@ function Navbar() {
       
     });
 
-   
-
-
   }, []); // Empty dependency array ensures it runs once when the component mounts
 
   return (
@@ -33,7 +30,7 @@ function Navbar() {
                 </div>
                 <div className="flex flex-col text-center md:flex-row md:items-center md:justify-between space-y-4 md:space-y-0 md:space-x-10">
                   <nav className=" space-x-3 md:space-x-6">
-                    <a href="/" className="text-base font-helvetica  text-gray-900 hover:text-blue-600 dark:text-gray-100 dark:hover:text-blue-400">
+                    <a href="/" className="text-base font-helvetica text-gray-900 hover:text-blue-600 dark:text-gray-100 dark:hover:text-blue-400">
                       <span>Home</span>
                     </a>
                     <a href="/about" className="text-base font-helvetica text-gray-900 hover:text-blue-600 dark:text-gray-100 dark:hover:text-blue-400">

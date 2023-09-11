@@ -3,6 +3,7 @@ import Navbar from './Navbar'
 import TextTypingEffect from './typingText'
 import gsap from 'gsap'
 import { useEffect, useState } from 'react';
+import Modal from './Modal'
 import '../css/app.css'
 import { ScrollTrigger } from 'gsap/ScrollTrigger';
 
@@ -60,14 +61,14 @@ function HeroContent() {
       toggleActions:"restart pause none reset",
       pin:'.navbar',
       scrub:true,
-      markers:true,
+     
     })
 
   }, []);
   return (
     <>
       {/* Hero Section: Image Cover with Header Actions Dark */}
-      <div className="w-full max-h-full dark bg-cover bg-bottom bg-no-repeat " style={{ minHeight: '100vh', maxHeight: '100vh', }}>
+      <div className="relative w-full max-h-full dark bg-cover bg-bottom bg-no-repeat " style={{ minHeight: '100vh', maxHeight: '100vh', }}>
      
         <div className=''>
           <div className="hero1 dark bg-cover bg-bottom bg-no-repeat absolute min-h-screen min-w-full top-full" style={{ backgroundImage: `url(/home.jpg)`, minHeight: '100vh', }}>
@@ -83,13 +84,12 @@ function HeroContent() {
         </div>
 
         <div className={`myGradient relative bg-transparent lg:bg-gradient-to-r bg-gray-900 bg-opacity-95  min-h-screen `}>
-
-
-          <Navbar />
+          <Navbar/>
+          <Modal/>
           {/* Hero Content */}
           <div className="relative center-box text-center container xl:max-w-7xl mx-auto px-4 py-16 lg:px-8 lg:py-32">
             <div className="font-frank  h3 text-normal rounded bg-gray-100 border border-gray-200 font-medium inline-flex px-2 py-1 leading-4 mb-2 text-gray-200 bg-gray-700/50 border-gray-600/50">
-              Elevate your space!
+              Elevate your space! 
             </div>
             <TextTypingEffect />
             <h2 className="font-frank h2 text-xl leading-relaxed font-medium  lg:w-2/3 mx-auto text-gray-300">

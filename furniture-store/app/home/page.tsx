@@ -5,7 +5,7 @@ import AboutContent from "../components/AboutContent";
 import Approach from "../components/Approach";
 import Features from "../components/Features";
 import Footer from "../components/Footer";
-import HeroContent from "../components/TopHeader";
+import HeroContent from "../components/HeroContent";
 import LargeImageCarousal from "../components/LargeImageCarousal";
 import Logos from "../components/Logos";
 import Project from "../components/Project";
@@ -15,8 +15,9 @@ import Testimonials from "../components/Testimonials";
 export default function Home() {
     return (
       
-      <div className="bg-black">
+      <div className="bg-black max-w-full min-width-full overflow-hidden">
          <HeroContent />
+        
         <About />
         <LargeImageCarousal />
         <Features />
