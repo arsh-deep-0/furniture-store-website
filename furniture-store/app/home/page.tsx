@@ -15,7 +15,7 @@ import Testimonials from "../components/Testimonials";
 export default function Home() {
     return (
       
-      <div className="bg-black max-w-full min-width-full overflow-hidden">
+      <div className="bg-black max-w-full font-frank min-width-full overflow-hidden">
          <HeroContent />
         
         <About />
