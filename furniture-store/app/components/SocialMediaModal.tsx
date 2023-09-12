@@ -1,0 +1,29 @@
+import { FaInstagram } from 'react-icons/fa';
+import { FaSquareFacebook } from 'react-icons/fa6';
+import { useEffect, useRef } from 'react';
+import gsap from 'gsap';
+
+
+
+export default function SocialMediaModal(){
+
+    useEffect(() => {
+        gsap.from('.sm-modal',{
+            delay:3,
+            x:-100,
+            duration:1.5,
+            opacity:0,
+            ease: 'sine.out',
+
+        })
+
+    },[])
+    return<>
+    {
+        <div className="sm-modal  rounded-md h-10 w-32 gap-2 absolute bottom-5 left-5 flex flex-row items-center justify-center">
+         <FaInstagram/>
+         <FaSquareFacebook/>
+        </div>
+    } 
+    </>
+}

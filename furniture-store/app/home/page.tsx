@@ -1,7 +1,7 @@
 'use client';
 import About from "../components/About";
 import AboutContent from "../components/AboutContent";
-
+import ImageCarousal from "../components/ImageCarousal";
 import Approach from "../components/Approach";
 import Features from "../components/Features";
 import Footer from "../components/Footer";
@@ -13,11 +13,11 @@ import Statistics from "../components/Statistics";
 import Testimonials from "../components/Testimonials";
 
 export default function Home() {
+
     return (
       
-      <div className="bg-black max-w-full min-width-full overflow-hidden">
+      <div className="bg-black max-w-full min-width-full overflow-hidden font-frank">
          <HeroContent />
-        
         <About />
         <LargeImageCarousal />
         <Features />

@@ -33,7 +33,7 @@ export default function Approach() {
             <div className="lg:w-96 relative">
               <div className="absolute top-0 right-0 w-40 h-40 lg:w-96 lg:h-96 bg-tranparent border border-teal-200 rounded-full -m-6 dark:border-teal-900" />
               <div className="absolute bottom-0 left-0 w-40 h-40 lg:w-96 lg:h-96 bg-tranparent border border-indigo-200 rounded-full -m-6 dark:border-indigo-900" />
-              <div className="absolute rounded-full bg-gradient-to-br from-purple-200 top-0 left-0 w-36 h-36 -mt-10 -ml-10 dark:from-purple-800" />
+              <div className="absolute rounded-full bg-gradient-to-br from-blue-200 top-0 left-0 w-36 h-36 -mt-10 -ml-10 dark:from-blue-800" />
               <div className="absolute rounded-3xl bg-gradient-to-tl from-amber-200 bottom-0 right-0 w-24 h-24 -mb-8 -mr-8 rotate-12 dark:from-orange-900" />
               <div className="absolute rounded-3xl bg-gradient-to-bl from-teal-200 top-0 right-0 w-32 h-40 -mt-10 -mr-8 -rotate-6 dark:from-teal-800" />
               <div className="absolute rounded-3xl bg-gradient-to-tr from-indigo-200 bottom-0 left-0 w-32 h-40 -mb-8 -ml-8 rotate-12 dark:from-indigo-800" />

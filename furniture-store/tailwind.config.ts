@@ -8,9 +8,12 @@ const config: Config = {
   ],
   theme: {
     extend: {
-      fontFamily: {    'frank': ['Frank Ruhl Libre', 'sans'],
+    
+      fontFamily: { 'lexend-peta': ['Lexend Peta', 'sans'],
+            'frank': ['Frank Ruhl Libre', 'sans'],
         'helvetica': ['Helvetica Neue', 'sans'],
         raleway: ['Raleway', 'sans'],
+        
       },
       backgroundImage: {
         'gradient-radial': 'radial-gradient(var(--tw-gradient-stops))',

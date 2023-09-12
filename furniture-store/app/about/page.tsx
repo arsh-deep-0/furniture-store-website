@@ -6,10 +6,12 @@ import TopHeaderButtonless from '../components/TopHeaderButtonless'
 
 function About() {
   return (
-    <>
-    <TopHeaderButtonless title="About Us"/>
-    <AboutContent />
-    <Footer />
+    <> <div className='font-frank'>
+      <TopHeaderButtonless title="About Us " />
+      <AboutContent />
+      <Footer />
+    </div>
+
     </>
   )
 }

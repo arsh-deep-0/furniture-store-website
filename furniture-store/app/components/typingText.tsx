@@ -33,13 +33,13 @@ const TextTypingEffect = () => {
       };
   
       // Trigger the typing effect when the component mounts
-      setTimeout(() => typeText(0), 1500);
+      setTimeout(() => typeText(0), 1000);
     }, []);
 
   return (
     
-      <div className="font-frank text-4xl font-black text-white">
-         {typedText} <span style={{color: 'rgba(255, 0, 0, 0)'}}>Hi</span>
+      <div className="font-m text-5xl font-black text-white">
+         {typedText} <span style={{textShadow:'none',color: 'rgba(255, 0, 0, 0)'}}>Hi</span>
       </div>
    
   );

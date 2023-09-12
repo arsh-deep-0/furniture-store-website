@@ -58,7 +58,7 @@ export default function LargeImageCarousal() {
       <>
         {/* Image Overlays Section: Overlay Slide Top */}
         <div className="relative bg-white dark:text-gray-100 dark:bg-gray-900">
-          <div className="container xl:max-w-7xl mx-auto px-4 py-16 lg:px-8 lg:py-32 space-y-16">
+          <div className="container xl:max-w-7xl mx-auto px-8 py-4 lg:px-8 lg:py-8 space-y-16">
             <div className="grid grid-cols-1 md:grid-cols-4 gap-4 md:gap-12"style={{ gridAutoRows: 'auto', gridAutoColumns: 'auto' }}>
               {/* Item */}
               <div className="box-container relative group rounded-lg bg-blue-900 overflow-hidden focus:outline-none focus:ring-4 focus:ring-blue-500 focus:ring-opacity-50 focus:ring-offset-2 focus-within:ring-4 focus-within:ring-blue-500 focus-within:ring-opacity-50 focus-within:ring-offset-2 dark:ring-offset-gray-900" tabIndex={0} onClick={handleBoxClick}>

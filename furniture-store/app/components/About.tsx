@@ -2,13 +2,13 @@ export default function About() {
   return (
     <>
       {/* Statistics Section: With Details Alternate */}
-      <div className="relative bg-white dark:text-gray-100 dark:bg-gray-900 ">
-        <div className="container xl:max-w-7xl mx-auto px-4 py-16 lg:px-8 lg:py-32 space-y-10 lg:space-y-0 lg:flex lg:items-center lg:justify-between">
+      <div className="relative dark:text-gray-100 dark:bg-gray-900 ">
+        <div className=" container xl:max-w-7xl mx-auto px-4 py-16 lg:px-8 lg:py-16 space-y-10 lg:space-y-0 lg:flex lg:items-center lg:justify-between">
           {/* Stats */}
-          <div className="grid grid-cols-1 sm:grid-cols-2 gap-4 md:gap-10 lg:w-8/12 lg:flex-none">
-            <div className="p-5 border-8 flex justify-center items-center">
+          <div className="  grid grid-cols-1 sm:grid-cols-2 gap-4 md:gap-10 lg:w-8/12 lg:flex-none">
+            <div className=" p-5 border-8 flex justify-center items-center">
               
-                <dt className="text-4xl lg:text-5xl font-extrabold text-blue-700 dark:text-blue-400 px-2">
+                <dt className=" text-4xl lg:text-5xl font-extrabold text-blue-700 dark:text-blue-400 px-2">
                   <span className="inline-block relative">
                     <span className="absolute inline-block inset-0 translate-x-1 translate-y-1 text-blue-200 select-none transition group-hover:translate-x-0 group-hover:translate-y-0 dark:text-blue-800 text-7xl">25</span>
                     <span className="relative text-7xl">25</span>
@@ -34,7 +34,7 @@ export default function About() {
 
 
           {/* Heading */}
-          <div className="text-center lg:pl-8 lg:text-left lg:w-1/2">
+          <div className=" text-center lg:pl-8 lg:text-left lg:w-1/2">
             {/* <h2 className="text-4xl font-black text-black mb-4 dark:text-white">
               Creative solutions by professional designers
             </h2> */}

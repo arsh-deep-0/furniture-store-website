@@ -17,7 +17,7 @@ export default function ImageCarousal({ imageUrls }: ImageCarousalProps) {
               >
                 <img src={url} alt={`Image ${index + 1}`} />
                 {/* Item Overlay */}
-                <div className="absolute inset-0 rounded flex flex-col items-center justify-center bg-blue-900 bg-opacity-80 transition duration-300 ease-out opacity-0 translate-y-full group-hover:opacity-100 group-focus:opacity-100 group-focus-within:opacity-100 group-hover:translate-y-0 group-focus:translate-y-0 group-focus-within:translate-y-0">
+                <div className="absolute inset-0 rounded flex flex-col items-center justify-center bg-gray-900 bg-opacity-80 transition duration-300 ease-out opacity-0 translate-y-full group-hover:opacity-100 group-focus:opacity-100 group-focus-within:opacity-100 group-hover:translate-y-0 group-focus:translate-y-0 group-focus-within:translate-y-0">
                   <div className="text-center">
                     <h4 className="font-semibold text-lg text-white">
                       Image Title {index + 1}
