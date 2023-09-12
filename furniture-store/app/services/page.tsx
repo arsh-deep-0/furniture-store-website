@@ -7,6 +7,7 @@ import TopHeaderButtonless from '../components/TopHeaderButtonless'
 function Services() {
     return (
         <>
+        <div className="font-frank">
             <TopHeaderButtonless title=" Our Services" />
 
             {/* Blog List Section: In Grid */}
@@ -94,6 +95,7 @@ function Services() {
             {/* END Blog List Section: In Grid */}
 
             <Footer />
+            </div>
         </>
     )
 }

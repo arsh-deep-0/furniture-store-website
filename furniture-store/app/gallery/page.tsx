@@ -16,6 +16,8 @@ const imageUrls = [
 function Gallery() {
   return (
     <>
+    <div className="font-frank">
+    
       <TopHeaderButtonless title="Our Gallery"/>
 
       <ImageCarousal imageUrls = {imageUrls}/>
@@ -24,6 +26,8 @@ function Gallery() {
       <ImageCarousal imageUrls = {imageUrls}/>
 
       <Footer />
+
+    </div>
     </>
   )
 }

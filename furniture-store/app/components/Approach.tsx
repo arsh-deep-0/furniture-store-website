@@ -30,16 +30,21 @@ export default function Approach() {
             </div>
           </div>
           <div className="lg:flex lg:justify-center lg:items-center">
-            <div className="lg:w-96 relative">
-              <div className="absolute top-0 right-0 w-40 h-40 lg:w-96 lg:h-96 bg-tranparent border border-teal-200 rounded-full -m-6 dark:border-teal-900" />
-              <div className="absolute bottom-0 left-0 w-40 h-40 lg:w-96 lg:h-96 bg-tranparent border border-indigo-200 rounded-full -m-6 dark:border-indigo-900" />
-              <div className="absolute rounded-full bg-gradient-to-br from-blue-200 top-0 left-0 w-36 h-36 -mt-10 -ml-10 dark:from-blue-800" />
+            <div className="w-full relative flex items-center">
+              {/* <div className="absolute top-0 right-0 w-40 h-40 lg:w-96 lg:h-96 bg-transparent border border-teal-200 rounded-full -m-6 dark:border-teal-900" />
+              <div className="absolute bottom-0 left-0 w-40 h-40 lg:w-96 lg:h-96 bg-transparent border border-indigo-200 rounded-full -m-6 dark:border-indigo-900" />
+              <div className="absolute rounded-full bg-gradient-to-br from-purple-200 top-0 left-0 w-36 h-36 -mt-10 -ml-10 dark:from-purple-800" />
               <div className="absolute rounded-3xl bg-gradient-to-tl from-amber-200 bottom-0 right-0 w-24 h-24 -mb-8 -mr-8 rotate-12 dark:from-orange-900" />
               <div className="absolute rounded-3xl bg-gradient-to-bl from-teal-200 top-0 right-0 w-32 h-40 -mt-10 -mr-8 -rotate-6 dark:from-teal-800" />
               <div className="absolute rounded-3xl bg-gradient-to-tr from-indigo-200 bottom-0 left-0 w-32 h-40 -mb-8 -ml-8 rotate-12 dark:from-indigo-800" />
-              <img src="https://cdn.tailkit.com/media/placeholders/photo-MChSQHxGZrQ-800x1000.jpg" className="relative rounded-lg mx-auto shadow-lg" alt="Hero Image" />
+              <img src="https://dndkitchencabinets.com/wp-content/uploads/2022/06/About_09.jpg" className="relative rounded-lg mx-auto shadow-lg" alt="Hero Image" />
+              <div className="absolute inset-0 flex items-center justify-center">
+                <MdSlowMotionVideo />
+              </div> */}
+              <iframe className='rounded-xl' width="750" height="315" src="https://www.youtube-nocookie.com/embed/Z30Jk8QpAMI?si=O4fICNgPl8HgocBc" title="YouTube video player" frameBorder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowFullScreen></iframe>
             </div>
           </div>
+
         </div>
         {/* END Hero Content */}
       </div>

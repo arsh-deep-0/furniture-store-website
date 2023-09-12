@@ -16,7 +16,7 @@ export default function Home() {
 
     return (
       
-      <div className="bg-black max-w-full min-width-full overflow-hidden font-frank">
+      <div className="bg-black max-w-full font-frank min-width-full overflow-hidden">
          <HeroContent />
         <About />
         <LargeImageCarousal />
