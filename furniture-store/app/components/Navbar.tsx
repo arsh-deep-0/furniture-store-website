@@ -1,12 +1,20 @@
 import React from 'react'
 import gsap from 'gsap'
-import { useEffect, useRef } from 'react';
+import { useEffect, useState } from 'react';
 import { ScrollTrigger } from 'gsap/ScrollTrigger';
 import { FaInstagram } from 'react-icons/fa';
 import { MdEmail } from 'react-icons/md';
 gsap.registerPlugin(ScrollTrigger);
+import '../css/app.css';
+
 
 function Navbar() {
+  
+  const [activeLink, setActiveLink] = useState('');
+
+  const handleLinkClick = (link: any) => {
+    setActiveLink(link);
+  };
 
   useEffect(() => {
     gsap.from('.navbar', {
@@ -22,11 +30,12 @@ function Navbar() {
       trigger: '.navbar',
       start: 'top top',
       endTrigger: '.footer', // Optional: Specify an element that ends pinning (e.g., a footer)
-      end: 'bottom top',
+
       toggleClass: { targets: ".navbar", className: "navbar-blue" },
-      toggleActions: "restart pause none reset",
+      toggleActions: "restart reset restart reset",
       pin: '.navbar',
       scrub: true,
+
     })
 
   }, []); // Empty dependency array ensures it runs once when the component mounts
@@ -34,7 +43,7 @@ function Navbar() {
   return (
     <>
       {/* Main Header */}
-      <header id="page-header" className=" relative   flex justify-center items-center py-8">
+      <div id="page-header" className=" relative   flex justify-center items-center py-8">
         {/* Main Header Content */}
 
         <div className="navbar w-full  py-1 px-5  flex flex-col text-center md:flex-row md:items-center md:justify-between space-y-4 md:space-y-0 container xl:max-w-7xl mx-0  lg:px-32">
@@ -46,24 +55,29 @@ function Navbar() {
           </div>
           <div className="flex flex-col text-center md:flex-row md:items-center md:justify-between space-y-4 md:space-y-0 md:space-x-10">
             <nav className=" space-x-3 md:space-x-6">
-              <a href="/" className="text-sm  text-gray-900 hover:text-blue-600 dark:text-gray-100 dark:hover:text-blue-400">
+              <a href="/" className={` text-sm  text-gray-900 hover:text-blue-600 dark:text-gray-100 dark:hover:text-blue-400 ${activeLink === '/' ? 'active-link' : ''}`}onClick={() => handleLinkClick('/')}>
                 <span>Home</span>
               </a>
-              <a href="/about" className="text-sm  text-gray-900 hover:text-blue-600 dark:text-gray-100 dark:hover:text-blue-400">
-                <span>About Us</span>
+
+              <a href="/about" className={` text-sm  text-gray-900 hover:text-blue-600 dark:text-gray-100 dark:hover:text-blue-400 ${activeLink === '/' ? 'active-link' : ''}`}onClick={() => handleLinkClick('/')}>
+                <span>About</span>
               </a>
-              <a href="/gallery" className="text-sm  text-gray-900 hover:text-blue-600 dark:text-gray-100 dark:hover:text-blue-400">
+
+              <a href="/gallery" className={` text-sm  text-gray-900 hover:text-blue-600 dark:text-gray-100 dark:hover:text-blue-400 ${activeLink === '/' ? 'active-link' : ''}`}onClick={() => handleLinkClick('/')}>
                 <span>Gallery</span>
               </a>
-              <a href="/services" className="text-sm  text-gray-900 hover:text-blue-600 dark:text-gray-100 dark:hover:text-blue-400">
+
+              <a href="/services" className={` text-sm  text-gray-900 hover:text-blue-600 dark:text-gray-100 dark:hover:text-blue-400 ${activeLink === '/' ? 'active-link' : ''}`}onClick={() => handleLinkClick('/')}>
                 <span>Services</span>
               </a>
-              <a href="/contact" className="text-sm  text-gray-900 hover:text-blue-600 dark:text-gray-100 dark:hover:text-blue-400">
-                <span>Contact Us</span>
+
+              <a href="/contact" className={` text-sm  text-gray-900 hover:text-blue-600 dark:text-gray-100 dark:hover:text-blue-400 ${activeLink === '/' ? 'active-link' : ''}`}onClick={() => handleLinkClick('/')}>
+                <span>ContactUs</span>
               </a>
+              
             </nav>
             <div className=" rounded-lg flex items-center justify-center space-x-2">
-              <a href="#" className="button text-normal inline-flex  justify-center items-center space-x-2 border  rounded-md px-3 py-1 leading-6 border-blue-700 bg-blue-700 text-white hover:text-white hover:bg-blue-600 hover:border-blue-600 focus:ring active:bg-blue-700 active:border-blue-700 focus:ring-blue-400 focus:ring-opacity-90">
+              <a href="mailto:univkitchens@gmail.com" className="button text-normal inline-flex  justify-center items-center space-x-2 border  rounded-md px-3 py-1 leading-6 border-blue-700 bg-blue-700 text-white hover:text-white hover:bg-blue-600 hover:border-blue-600 focus:ring active:bg-blue-700 active:border-blue-700 focus:ring-blue-400 focus:ring-opacity-90">
                 <span>Email</span>
                 <MdEmail />
 
@@ -72,7 +86,7 @@ function Navbar() {
           </div>
         </div>
         {/* END Main Header Content */}
-      </header>
+      </div>
       {/* END Main Header */}
     </>
   )

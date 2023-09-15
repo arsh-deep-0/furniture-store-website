@@ -1,27 +1,95 @@
+import React from 'react'
+import gsap from 'gsap'
+import { useEffect, useRef, useState } from 'react';
+import { ScrollTrigger } from 'gsap/ScrollTrigger';
+gsap.registerPlugin(ScrollTrigger);
+
 export default function About() {
+  const [number, setNumber] = useState(0);
+
+  useEffect(() => {
+    const increaseNumber = () => {
+      setNumber((prevNumber) => {
+        if (prevNumber < 150) {
+          return prevNumber + 1;
+        } else {
+          clearInterval(interval); // Stop the interval when number reaches 150
+          return prevNumber;
+        }
+      });
+    };
+
+    let interval; // Define the interval variable
+
+    const scrollTrigger = ScrollTrigger.create({
+      trigger: '.number',
+      endTrigger: '.aboutus-container',
+      start: 'top 90%',
+      end: 'bottom 20%',
+      toggleActions: 'restart reverse restart reverse',
+      onEnter: () => {
+        // Start the interval when the scroll trigger is entered
+        interval = setInterval(increaseNumber, 15);
+      },
+      onLeave: () => {
+        // Stop and clear the interval when the scroll trigger is left
+        setNumber(150);
+        clearInterval(interval);
+      },
+    });
+
+    gsap.from(".aboutus",
+      {
+        y: 60,
+        opacity: 0,
+        stagger: 0.25,
+        ease: 'sine.out',
+        scrollTrigger: {
+          trigger: '.aboutus',
+          endTrigger:'.aboutus',
+          start: 'top 96%',
+          end:'bottom 30%',
+          toggleActions: "restart reverse restart reverse ",
+        }
+      })
+
+
+    
+
+    // Clear the interval when the component unmounts
+    return () => {
+      clearInterval(interval);
+      scrollTrigger.kill(); // Clean up the ScrollTrigger on component unmount
+    };
+  }, []);
+
   return (
     <>
       {/* Statistics Section: With Details Alternate */}
-      <div className="relative dark:text-gray-100 dark:bg-gray-900 ">
-        <div className=" container xl:max-w-7xl mx-auto px-4 py-16 lg:px-8 lg:py-16 space-y-10 lg:space-y-0 lg:flex lg:items-center lg:justify-between">
+      <div className="relative dark:text-gray-100 dark:bg-gray-900  ">
+
+        <div className="aboutus-container container xl:max-w-7xl mx-auto px-4 py-16 lg:px-8 lg:py-16 space-y-10 lg:space-y-0 lg:flex lg:items-center lg:justify-between">
+
           {/* Stats */}
-          <div className="  grid grid-cols-1 sm:grid-cols-2 gap-4 md:gap-10 lg:w-8/12 lg:flex-none">
-            <div className=" p-5 border-8 flex justify-center items-center">
-              
-                <dt className=" text-4xl lg:text-5xl font-extrabold text-blue-700 dark:text-blue-400 px-2">
-                  <span className="inline-block relative">
-                    <span className="absolute inline-block inset-0 translate-x-1 translate-y-1 text-blue-200 select-none transition group-hover:translate-x-0 group-hover:translate-y-0 dark:text-blue-800 text-7xl">25</span>
-                    <span className="relative text-7xl">25</span>
-                  </span>
-                </dt>
-                <dd className="font-medium leading-relaxed text-gray-600 dark:text-gray-400 text-center">
-                  Years<br />experience<br />working
-                </dd>
-              
+          <div className="aboutus grid grid-cols-1 sm:grid-cols-1 gap-4 md:gap-10 lg:w-4/12 lg:flex-none">
+            <div className=" p-5 border-4 rounded-xl flex justify-center items-center">
+
+              <dt className=" text-4xl lg:text-5xl font-extrabold text-blue-700 dark:text-blue-400 px-2">
+                <span className="inline-block relative">
+                  {/* <span className="absolute inline-block inset-0 translate-x-1 translate-y-1 text-blue-200 select-none transition group-hover:translate-x-0 group-hover:translate-y-0 dark:text-blue-800 text-7xl">150+</span> */}
+                  <span className="font-anl number relative text-7xl">{number}+</span>
+                </span>
+              </dt>
+              <dd className="font-medium leading-relaxed text-gray-600 dark:text-gray-400 text-center">
+                <br />Projects<br />Completed
+              </dd>
+
             </div>
 
-            <div className="pl-8">
-              <div className="text-sm uppercase font-bold tracking-wider mb-1 text-blue-600 dark:text-blue-500">
+            </div>
+
+            <div className="aboutus pl-8">
+              <div className="font-an text-sm uppercase font-bold tracking-wider mb-1 text-blue-600 dark:text-blue-500">
                 About Us
               </div>
               <h2 className="text-4xl font-black text-black my-4 dark:text-white">
@@ -29,12 +97,12 @@ export default function About() {
               </h2>
             </div>
 
-          </div>
+          
           {/* END Stats */}
 
 
           {/* Heading */}
-          <div className=" text-center lg:pl-8 lg:text-left lg:w-1/2">
+          <div className="aboutus text-center lg:pl-8 lg:text-left lg:w-1/2">
             {/* <h2 className="text-4xl font-black text-black mb-4 dark:text-white">
               Creative solutions by professional designers
             </h2> */}

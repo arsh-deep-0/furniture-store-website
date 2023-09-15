@@ -3,6 +3,8 @@ interface ImageCarousalProps {
 }
 
 export default function ImageCarousal({ imageUrls }: ImageCarousalProps) {
+
+
   return (
     <>
       {/* Image Overlays Section: Overlay Slide Top */}
@@ -12,15 +14,15 @@ export default function ImageCarousal({ imageUrls }: ImageCarousalProps) {
             {imageUrls.map((url, index) => (
               <div
                 key={index}
-                className="relative group rounded-lg bg-blue-900 overflow-hidden focus:outline-none focus:ring-4 focus:ring-blue-500 focus:ring-opacity-50 focus:ring-offset-2 focus-within:ring-4 focus-within:ring-blue-500 focus-within:ring-opacity-50 focus-within:ring-offset-2 dark:ring-offset-gray-900"
+                className="image relative group rounded-lg bg-blue-900 overflow-hidden focus:outline-none focus:ring-4 focus:ring-blue-500 focus:ring-opacity-50 focus:ring-offset-2 focus-within:ring-4 focus-within:ring-blue-500 focus-within:ring-opacity-50 focus-within:ring-offset-2 dark:ring-offset-gray-900"
                 tabIndex={0}
               >
-                <img src={url} alt={`Image ${index + 1}`} />
+                <img className="image" src={url} alt={`Image ${index + 1}`} />
                 {/* Item Overlay */}
                 <div className="absolute inset-0 rounded flex flex-col items-center justify-center bg-gray-900 bg-opacity-80 transition duration-300 ease-out opacity-0 translate-y-full group-hover:opacity-100 group-focus:opacity-100 group-focus-within:opacity-100 group-hover:translate-y-0 group-focus:translate-y-0 group-focus-within:translate-y-0">
                   <div className="text-center">
                     <h4 className="font-semibold text-lg text-white">
-                      Image Title {index + 1}
+                      Kitchen Design {index + 1}
                     </h4>
                     <h5 className="text-sm text-white text-opacity-80 mb-5">
                       Image Description

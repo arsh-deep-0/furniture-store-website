@@ -12,6 +12,7 @@ import Project from "../components/Project";
 import Statistics from "../components/Statistics";
 import Testimonials from "../components/Testimonials";
 
+
 export default function Home() {
 
     return (
@@ -19,6 +20,7 @@ export default function Home() {
       <div className="bg-black max-w-full font-frank min-width-full overflow-hidden">
          <HeroContent />
         <About />
+      
         <LargeImageCarousal />
         <Features />
         <Logos />

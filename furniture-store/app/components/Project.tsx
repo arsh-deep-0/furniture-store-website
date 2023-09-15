@@ -17,7 +17,7 @@ export default function Project() {
         <div className="bg-white dark:text-gray-100 dark:bg-gray-900">
           <div className="space-y-16 container xl:max-w-7xl mx-auto px-4 py-16 lg:px-8 lg:pt-32">
             <div className="text-center">
-              <div className="text-sm uppercase font-bold tracking-wider mb-1 text-blue-600 dark:text-blue-500">
+              <div className="font-an text-sm uppercase font-bold tracking-wider mb-1 text-blue-600 dark:text-blue-500">
                 OUR PROJECTS
               </div>
               <h2 className="text-4xl font-black text-black mb-4 dark:text-white">

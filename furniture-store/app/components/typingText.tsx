@@ -28,7 +28,7 @@ const TextTypingEffect = () => {
           currentIndex = 0;
           setTimeout(() => setTypedText(' '), 2450); 
          
-          setTimeout(() => typeText(textIndex + 1), 3210+((textsToType[0].length-textsToType[textIndex].length)*40)); // Adjust the delay as needed
+          setTimeout(() => typeText(textIndex + 1), 3310+((textsToType[0].length-textsToType[textIndex].length)*40)); // Adjust the delay as needed
         }
       };
   
