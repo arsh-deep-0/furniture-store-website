@@ -1,136 +1,156 @@
   @import url('https://fonts.googleapis.com/css2?family=Antonio:wght@100;200;300&family=Lexend+Peta:wght@100;200&family=Montserrat:ital,wght@0,600;0,700;1,700&display=swap');
+  @import url('https://fonts.googleapis.com/css2?family=Frank+Ruhl+Libre:wght@300&display=swap');
 
-
-  *{
+  * {
     margin: 0;
     padding: 0;
   }
+
   .myGradient {
     background-color: rgba(0, 0, 0, 0.65);
   }
-  
+
   .video-background {
     position: relative;
     width: 100%;
-    height: 100vh; /* Set the desiblue height for the video background */
+    height: 100vh;
+    /* Set the desiblue height for the video background */
   }
 
-  .navbar-blue{
+  .font-frank {
+    font-family: 'Frank Ruhl Libre', sans-serif;
+  }
+
+  .navbar-blue {
     background-color: rgb(17, 24, 39);
     z-index: 25;
     border-bottom: 1px solid #ffffff;
-    top:0!important;    
-    transform: translate(0 ,0)!important;
+    top: 0 !important;
+    transform: translate(0, 0) !important;
   }
 
-  .navbar{
-  
-   min-width: 100%;
+  .navbar {
+
+    min-width: 100%;
   }
-  .container{
+
+  .container {
     overflow: hidden;
   }
-  .font-l{
+
+  .font-l {
     font-family: 'Lexend Peta', sans-serif;
-    font-size: 0.875rem;
+    font-size: 0.875rem !important;
+    letter-spacing: 0;
   }
 
-  .font-a{
+  .font-l-sm {
+    font-family: 'Lexend Peta', sans-serif;
+    font-size: 0.6rem;
+  }
+
+  .font-a {
     font-family: 'Antonio', sans-serif;
-    font-weight: 100; 
+    font-weight: 100;
     letter-spacing: 12px;
-   font-size: 0.9rem;
+    font-size: 0.9rem;
     text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
   }
 
-  .font-an{
+  .font-an {
     font-family: 'Antonio', sans-serif;
-    font-weight: 200; 
+    font-weight: 200;
     letter-spacing: 5px;
     font-size: 1rem;
     margin-bottom: 1.5rem;
     font-family: 'Montserrat', sans-serif;
-   
+
   }
 
-  .font-ans{
+  .font-ans {
     font-family: 'Antonio', sans-serif;
-    font-weight: 200; 
+    font-weight: 200;
     letter-spacing: 5px;
     font-size: 1.5rem;
     margin-bottom: 0.5rem;
     font-family: 'Montserrat', sans-serif;
-   
+
   }
 
-  .font-ann{
+  .font-ann {
     font-family: 'Antonio', sans-serif;
     font-family: 'Montserrat', sans-serif;
-    font-weight: 300; 
+    font-weight: 300;
     letter-spacing: 2px;
     font-size: 2rem;
     margin-bottom: 0.5rem;
   }
 
-  .font-anl{
+  .font-anl {
     font-family: 'Antonio', sans-serif;
     font-family: 'Montserrat', sans-serif;
-    font-weight: 300; 
+    font-weight: 300;
     letter-spacing: 2px;
     font-size: 4rem;
     margin-bottom: 0.5rem;
   }
 
-  .font-m{
+  .font-m {
     margin: 20px;
     font-family: 'Montserrat', sans-serif;
-    font-weight: 600; /* You can adjust the font-weight as needed */
-    text-shadow: 0 0 3px rgba(255, 255, 255, 0.7);;
+    font-weight: 600;
+    /* You can adjust the font-weight as needed */
+    text-shadow: 0 0 3px rgba(255, 255, 255, 0.7);
+    ;
   }
 
-  .button{
+  .button {
     box-shadow: 0 0 10px rgba(96, 95, 157, 0.6);
   }
 
   .vertical-line {
     position: absolute;
     top: 50vh;
-    width: 2px; /* Adjust the width of the lines as needed */
+    width: 2px;
+    /* Adjust the width of the lines as needed */
     height: 1vh;
-    background-color: #ffffff; /* Adjust the color of the lines as needed */
+    background-color: #ffffff;
+    /* Adjust the color of the lines as needed */
     content: '';
     box-shadow: 0 0 10px rgba(255, 255, 255, 0.7);
     display: none;
   }
-  
+
+
+
   .left-line {
     left: 10%;
   }
-  
+
   .right-line {
     right: 10%;
   }
-  
-  .testi{
-    border: 0.1px rgba(0, 0, 0,0.7) solid;
+
+  .testi {
+    border: 0.1px rgba(0, 0, 0, 0.7) solid;
   }
 
-  .number{
+  .number {
     text-shadow: 0.05rem 0.1rem 0.15rem #ffffff;
   }
 
-  .image:hover{
+  .image:hover {
     transform: scale(1.05);
   }
 
-  .image{
+  .image {
     transition: transform 0.2s ease-out;
   }
 
 
-  
 
-  .scr-container{
+
+  .scr-container {
     background: linear-gradient(to right, rgba(0, 0, 0, 0) 0%, rgba(243, 244, 246, 0.1) 50%, rgba(255, 255, 255, 0) 100%);
   }
 
@@ -139,35 +159,100 @@
   } */
 
   .read-more-content {
-    
+
     margin: 0;
     padding: 0;
     opacity: 0;
     transform: translateY(-17.4rem);
     transition: opacity 0.2s ease-in-out, transform 0.2s ease-in-out;
-  
+
     margin: auto;
   }
-  
+
   .read-more-content.open {
     opacity: 1;
     transform: translateY(-18rem);
   }
 
-  hr{
-    
+  hr {
+
     border: rgba(128, 128, 128, 0.3) solid 0.01rem;
     margin-bottom: 1rem;
     margin-top: 0.2rem;
   }
 
-  .an{
+  .an {
     margin-bottom: 0.5rem !important;
     letter-spacing: 1px !important;
   }
 
-  .icon{
+  .icon {
     transform: translateY(0.2rem);
     scale: 1.3;
-    color:rgb(37, 99, 235);
+    color: rgb(37, 99, 235);
+  }
+
+  .icon-white {
+    transform: translateY(0.2rem);
+    scale: 1.3;
+    color: rgb(255, 255, 255);
+  }
+
+
+  .navbar-modal {
+    display: flex;
+  }
+
+  .navbar-modal-2{
+    display: none;
+  }
+
+  @media (max-width: 768px) {
+    .vertical-line {
+      background-color: #ffffff00;
+      box-shadow: 0 0 0;
+    }
+
+    .myGradient {
+      background-color: rgba(0, 0, 0, 0.5);
+    }
+
+    .navbar-modal {
+      display: none;
+    }
+
+    .navbar-modal-2 {
+      
+      margin-top:10%;
+      border: 0.0rem white solid;
+      border-radius: 0.15rem;
+      right:0rem;
+      position: fixed;
+      display: flex;
+      background-color: rgb(17, 24, 39);
+      width:100%;
+
+      /* width: 40%; */
+      height: 40vh;
+      z-index: 35;
+      top:-8%;
+      flex-direction: column;
+      padding-top: 10%;
+      padding-right: 5%;
+      align-items: flex-end;
+    }
+
+    .cross{
+      left: 1rem;
+      top:10vh
+      ;
+      position:absolute;
+    }
+
+    .navbar-modal-2 nav{
+      flex-direction: column;
+     
+      align-items: flex-end;
+      padding: 5%;
+    }
   }

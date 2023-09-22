@@ -137,7 +137,7 @@ export default function Testimonials() {
                 </blockquote>
               </div>
             </div>
-            <div className="testi  px-6 pt-16 pb-6 md:px-12 md:pb-10 relative rounded-lg shadow-sm bg-white dark:text-gray-100 dark:bg-gray-800">
+            <div className="testi hidden lg:block px-6 pt-16 pb-6 md:px-12 md:pb-10 relative rounded-lg shadow-sm bg-white dark:text-gray-100 dark:bg-gray-800">
               <div className="absolute top-0 right-0 text-8xl mt-2 mr-5 text-gray-200 opacity-75 font-serif dark:text-gray-700/75">“</div>
               <div className="relative">
                 <blockquote>
@@ -160,7 +160,7 @@ export default function Testimonials() {
                 </blockquote>
               </div>
             </div>
-            <div className="testi  px-6 pt-16 pb-6 md:px-12 md:pb-10 relative rounded-lg shadow-sm bg-white dark:text-gray-100 dark:bg-gray-800">
+            <div className="testi hidden lg:block px-6 pt-16 pb-6 md:px-12 md:pb-10 relative rounded-lg shadow-sm bg-white dark:text-gray-100 dark:bg-gray-800 ">
               <div className="absolute top-0 right-0 text-8xl mt-2 mr-5 text-gray-200 opacity-75 font-serif dark:text-gray-700/75">“</div>
               <div className="relative">
                 <blockquote>

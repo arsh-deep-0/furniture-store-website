@@ -92,20 +92,20 @@ export default function AboutContent() {
         <div className="relative overflow-hidden bg-white dark:text-gray-100 dark:bg-gray-900">
 
           {/* Hero Content */}
-          <div className="relative flex flex-col lg:flex-row space-y-16 lg:space-y-0 text-center lg:text-left container xl:max-w-7xl mx-auto px-4 py-16 lg:px-8 lg:py-32">
+          <div className="relative flex flex-col lg:flex-row space-y-4 lg:space-y-0 text-center lg:text-left container xl:max-w-7xl mx-auto px-4 pt-32 lg:px-8 lg:py-16 ">
             <div className="photo-1 lg:w-1/2  lg:flex  lg:items-center">
               <div className="relative mx-5 ">
-                <div className="absolute bg-gray-900 top-0 left-0 w-40 h-40 lg:w-72 lg:h-72  border border-blue-200 rounded-full -mt-16 -ml-20 dark:border-blue-900" />
-                <div className="absolute bg-blue-900 top-0 left-0 w-40 h-40 lg:w-72 lg:h-72  border-blue-100 rounded-full -mt-20 -ml-14 dark:border-blue-950" />
-                <div className="absolute bg-gray-900 bottom-0 right-0 w-40 h-40 lg:w-72 lg:h-72  border border-blue-200 rounded-full -mb-16 -mr-20 dark:border-blue-900" />
-                <div className="absolute bg-blue-900 bottom-0 right-0 w-40 h-40 lg:w-72 lg:h-72  border border-blue-100 rounded-full -mb-20 -mr-14 dark:border-blue-950" />
-                <div className=" frame-1 absolute inset-0 rounded-xl -m-6 -rotate-2 bg-gray-200 dark:bg-gray-800" />
-                <div className=" frame-2 absolute inset-0 rounded-xl -m-6 rotate-1 bg-blue-800 bg-opacity-75 shadow-inner dark:bg-blue-900 dark:bg-opacity-75" />
+                <div className="absolute lg:bg-gray-900 top-0 left-0 w-40 h-40 lg:w-72 lg:h-72  border border-blue-200 rounded-full -mt-16 -ml-20 dark:border-blue-900" />
+                <div className="absolute lg:bg-blue-900 top-0 left-0 w-40 h-40 lg:w-72 lg:h-72  border-blue-100 rounded-full -mt-20 -ml-14 dark:border-blue-950" />
+                <div className="absolute lg:bg-gray-900 bottom-0 right-0 w-40 h-40 lg:w-72 lg:h-72  border border-blue-200 rounded-full -mb-16 -mr-20 dark:border-blue-900" />
+                <div className="absolute lg:bg-blue-900 bottom-0 right-0 w-40 h-40 lg:w-72 lg:h-72  border border-blue-100 rounded-full -mb-20 -mr-14 dark:border-blue-950" />
+                <div className=" frame-1 absolute inset-0 rounded-xl -m-6 -rotate-2 bg-gray-200 dark:bg-gray-500 bg-opacity-75" />
+                <div className=" frame-2 absolute inset-0 rounded-xl -m-6 rotate-1 bg-blue-800  shadow-inner dark:bg-blue-900 " />
                 <img src="/h2-banner5.jpg" className=" relative rounded-lg mx-auto shadow-lg" alt="Hero Image" />
               </div>
             </div>
 
-            <div className=" text-1 lg:w-1/2 lg:flex lg:items-center lg:pl-20">
+            <div className=" text-1 lg:w-1/2 lg:flex lg:items-center lg:pl-20 pt-16">
               <div>
                 <div className="font-an text-sm uppercase font-bold tracking-wider mb-1 text-blue-600 dark:text-blue-500">
                   About Us
@@ -140,7 +140,7 @@ export default function AboutContent() {
         <div className="relative overflow-hidden bg-white dark:text-gray-100 dark:bg-gray-900">
 
           {/* Hero Content */}
-          <div className="relative flex flex-col lg:flex-row space-y-16 lg:space-y-0 text-center lg:text-left container xl:max-w-7xl mx-auto px-4 py-16 lg:px-8 lg:py-32">
+          <div className="relative gap-8 flex flex-col lg:flex-row space-y-16 lg:space-y-0 text-center lg:text-left container xl:max-w-7xl mx-auto px-4 py-16 lg:px-8 lg:py-8">
             <div className="text-2 lg:w-1/2 lg:flex lg:items-center">
               <div>
                 <div className="font-an text-sm uppercase font-bold tracking-wider mb-1 text-blue-600 dark:text-blue-500">
@@ -171,14 +171,14 @@ export default function AboutContent() {
                 </div>
               </div>
             </div>
-            <div className="photo-2 lg:w-1/2 lg:ml-16 lg:flex lg:justify-center lg:items-center">
+            <div className="photo-2 lg:w-1/2 lg:ml-16 lg:flex lg:justify-center lg:items-center sm:hidden">
               <div className="relative mx-5">
-                <div className="absolute bg-gray-900 top-0 left-0 w-40 h-40 lg:w-72 lg:h-72  border border-blue-200 rounded-full -mt-16 -ml-20 dark:border-blue-900" />
-                <div className="absolute bg-blue-900  top-0 left-0 w-40 h-40 lg:w-72 lg:h-72  border border-blue-100 rounded-full -mt-20 -ml-14 dark:border-blue-950" />
-                <div className="absolute bg-gray-900 bottom-0 right-0 w-40 h-40 lg:w-72 lg:h-72  border border-blue-200 rounded-full -mb-16 -mr-20 dark:border-blue-900" />
-                <div className="absolute bg-blue-900 bottom-0 right-0 w-40 h-40 lg:w-72 lg:h-72  border border-blue-100 rounded-full -mb-20 -mr-14 dark:border-blue-950" />
-                <div className="absolute inset-0 rounded-xl -m-6 -rotate-2 bg-gray-200 dark:bg-gray-800" />
-                <div className="absolute inset-0 rounded-xl -m-6 rotate-1 bg-blue-800 bg-opacity-75 shadow-inner dark:bg-blue-900 dark:bg-opacity-75" />
+                <div className="absolute lg:bg-gray-900 top-0 left-0 w-40 h-40 lg:w-72 lg:h-72  border border-blue-200 rounded-full -mt-16 -ml-20 dark:border-blue-900" />
+                <div className="absolute lg:bg-blue-900  top-0 left-0 w-40 h-40 lg:w-72 lg:h-72  border border-blue-100 rounded-full -mt-20 -ml-14 dark:border-blue-950" />
+                <div className="absolute lg:bg-gray-900 bottom-0 right-0 w-40 h-40 lg:w-72 lg:h-72  border border-blue-200 rounded-full -mb-16 -mr-20 dark:border-blue-900" />
+                <div className="absolute lg:bg-blue-900 bottom-0 right-0 w-40 h-40 lg:w-72 lg:h-72  border border-blue-100 rounded-full -mb-20 -mr-14 dark:border-blue-950" />
+                <div className="absolute inset-0 rounded-xl -m-6 -rotate-2 bg-gray-200 dark:bg-gray-500" />
+                <div className="absolute inset-0 rounded-xl -m-6 rotate-1 bg-blue-800 bg-opacity-75 shadow-inner dark:bg-blue-900 " />
                 <img src="https://dndkitchencabinets.com/wp-content/uploads/2022/06/About2_01.jpg" className="image relative rounded-lg mx-auto shadow-lg" alt="Hero Image" />
               </div>
             </div>

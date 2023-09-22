@@ -74,7 +74,7 @@ export default function About() {
           <div className="aboutus grid grid-cols-1 sm:grid-cols-1 gap-4 md:gap-10 lg:w-4/12 lg:flex-none">
             <div className=" p-5 border-4 rounded-xl flex justify-center items-center">
 
-              <dt className=" text-4xl lg:text-5xl font-extrabold text-blue-700 dark:text-blue-400 px-2">
+              <dt className=" text-4xl lg:text-5xl font-extrabold text-blue-700 dark:text-blue-600 px-2">
                 <span className="inline-block relative">
                   {/* <span className="absolute inline-block inset-0 translate-x-1 translate-y-1 text-blue-200 select-none transition group-hover:translate-x-0 group-hover:translate-y-0 dark:text-blue-800 text-7xl">150+</span> */}
                   <span className="font-anl number relative text-7xl">{number}+</span>

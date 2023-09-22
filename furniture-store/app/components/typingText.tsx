@@ -38,7 +38,7 @@ const TextTypingEffect = () => {
 
   return (
     
-      <div className="font-m text-5xl font-black text-white">
+      <div className="h-24 text-center text-3xl font-m lg:text-5xl font-black text-white sm:text-3xl sm:font-ans">
          {typedText} <span style={{textShadow:'none',color: 'rgba(255, 0, 0, 0)'}}>Hi</span>
       </div>
    

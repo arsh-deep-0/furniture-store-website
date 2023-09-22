@@ -11,6 +11,7 @@ import Logos from "../components/Logos";
 import Project from "../components/Project";
 import Statistics from "../components/Statistics";
 import Testimonials from "../components/Testimonials";
+import gsap from 'gsap';
 
 
 export default function Home() {
@@ -23,9 +24,9 @@ export default function Home() {
       
         <LargeImageCarousal />
         <Features />
-        <Logos />
         <Approach />
         <Testimonials />
+        <Logos />
         <Project />
         <Statistics />
         <Footer />

@@ -8,13 +8,13 @@ export default function ImageCarousal({ imageUrls }: ImageCarousalProps) {
   return (
     <>
       {/* Image Overlays Section: Overlay Slide Top */}
-      <div className="bg-white dark:text-gray-100 dark:bg-gray-900">
+      <div className="bg-white dark:text-gray-100 dark:bg-white">
         <div className="container xl:max-w-7xl mx-auto px-4 py-8 lg:px-8 space-y-16">
           <div className="grid grid-cols-1 md:grid-cols-3 gap-4 md:gap-8">
             {imageUrls.map((url, index) => (
               <div
                 key={index}
-                className="image relative group rounded-lg bg-blue-900 overflow-hidden focus:outline-none focus:ring-4 focus:ring-blue-500 focus:ring-opacity-50 focus:ring-offset-2 focus-within:ring-4 focus-within:ring-blue-500 focus-within:ring-opacity-50 focus-within:ring-offset-2 dark:ring-offset-gray-900"
+                className="image relative group rounded-sm bg-blue-900 overflow-hidden focus:outline-none focus:ring-4 focus:ring-blue-500 focus:ring-opacity-50 focus:ring-offset-2 focus-within:ring-4 focus-within:ring-blue-500 focus-within:ring-opacity-50 focus-within:ring-offset-2 dark:ring-offset-gray-900"
                 tabIndex={0}
               >
                 <img className="image" src={url} alt={`Image ${index + 1}`} />
@@ -28,7 +28,7 @@ export default function ImageCarousal({ imageUrls }: ImageCarousalProps) {
                       Image Description
                     </h5>
                     <a
-                      href="#"
+                      href="/gallery"
                       className="inline-flex justify-center items-center space-x-2 border font-semibold rounded-lg px-3 py-2 leading-5 text-sm border-blue-600 bg-blue-600 text-white hover:text-white hover:bg-blue-700 hover:border-blue-700 focus:ring focus:ring-blue-400 focus:ring-opacity-50 active:bg-blue-600 active:border-blue-600"
                     >
                       <span>More Info</span>
