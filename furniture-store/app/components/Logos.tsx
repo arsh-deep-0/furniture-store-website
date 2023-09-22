@@ -13,8 +13,9 @@ export default function Logos() {
     const element1 = document.querySelectorAll('.logo2');
     
     // Calculate the container width
-    const container = document.querySelector('.scroller');
-    const containerWidth = container.offsetWidth||0;
+    const container = document.querySelector('.scroller') as HTMLElement | null;
+    ;
+    const containerWidth =  container ? container.offsetWidth : 0;
     
     // Define the animation
     const m2=(element:any )=>{
