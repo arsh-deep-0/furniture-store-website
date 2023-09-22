@@ -8,18 +8,21 @@ export default function About() {
   const [number, setNumber] = useState(0);
 
   useEffect(() => {
+
+
     const increaseNumber = () => {
       setNumber((prevNumber) => {
         if (prevNumber < 150) {
           return prevNumber + 1;
         } else {
-          clearInterval(interval); // Stop the interval when number reaches 150
+          clearInterval(interval as NodeJS.Timeout); // Stop the interval when number reaches 150
           return prevNumber;
         }
       });
     };
 
-    let interval; // Define the interval variable
+    //let interval; // Define the interval variable
+    let interval: NodeJS.Timeout | null = null; // Explicitly declare the type
 
     const scrollTrigger = ScrollTrigger.create({
       trigger: '.number',
@@ -29,12 +32,12 @@ export default function About() {
       toggleActions: 'restart reverse restart reverse',
       onEnter: () => {
         // Start the interval when the scroll trigger is entered
-        interval = setInterval(increaseNumber, 15);
+        let interval = setInterval(increaseNumber, 15);
       },
       onLeave: () => {
         // Stop and clear the interval when the scroll trigger is left
         setNumber(150);
-        clearInterval(interval);
+        clearInterval(interval as NodeJS.Timeout);
       },
     });
 
@@ -58,7 +61,7 @@ export default function About() {
 
     // Clear the interval when the component unmounts
     return () => {
-      clearInterval(interval);
+      clearInterval(interval as NodeJS.Timeout);
       scrollTrigger.kill(); // Clean up the ScrollTrigger on component unmount
     };
   }, []);
