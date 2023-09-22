@@ -25,7 +25,7 @@ export default function Statistics() {
           return currentValue + 1;
         } else {
           if (shouldClearInterval) {
-            clearInterval(interval);
+            clearInterval(interval as  NodeJS.Timeout);
           }
           return currentValue;
         }
@@ -34,7 +34,7 @@ export default function Statistics() {
     
   };
 
-  let interval; // Define the interval variable
+  let interval: NodeJS.Timeout | null = null;  // Define the interval variable
 
   useEffect(() => {
     const scrollTrigger = ScrollTrigger.create({
@@ -50,7 +50,7 @@ export default function Statistics() {
       onLeave: () => {
         // Stop and clear the interval when the scroll trigger is left
       
-        clearInterval(interval);
+        clearInterval(interval as NodeJS.Timeout);
       },
       onEnterBack: () => {
         setNumberArray([0,0,0,0])
@@ -64,7 +64,7 @@ export default function Statistics() {
 
     // Clear the interval when the component unmounts
     return () => {
-      clearInterval(interval);
+      clearInterval(interval as NodeJS.Timeout);
       scrollTrigger.kill(); // Clean up the ScrollTrigger on component unmount
     };
   }, []);
