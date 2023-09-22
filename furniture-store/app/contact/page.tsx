@@ -27,10 +27,10 @@ function Contact() {
 
             <div className="lg:w-3/5 md:w-2/3  bg-gray-900 shadow-md rounded-lg  flex flex-col md:ml-auto w-full mt-10 md:mt-0 relative z-10  ">
               <h2 className="text-blue-600    font-ans uppercase font-bold ">Get in touch with us</h2>
-              <p className="text-white text-base font-l">"Feel free to reach out to us to discuss your custom kitchen needs. Whether you have questions, need advice, or want to get started on your dream kitchen project, we're here to assist you.
+              <p className="text-white text-base font-l">Feel free to reach out to us to discuss your custom kitchen needs. Whether you have questions, need advice, or want to get started on your dream kitchen project, we  re here to assist you.
               </p>
               <br />
-              <p className="text-base font-l" >You can give us a call, send us an email, or fill out our contact form, and we'll get back to you promptly. Let's create the kitchen you've always envisioned together!"
+              <p className="text-base font-l" >You can give us a call, send us an email, or fill out our contact form, and we ll get back to you promptly. Let s create the kitchen you ve always envisioned together 
               </p>
             </div>
 
