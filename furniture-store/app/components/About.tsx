@@ -12,7 +12,7 @@ export default function About() {
 
     const increaseNumber = () => {
       setNumber((prevNumber) => {
-        if (prevNumber < 150) {
+        if (prevNumber < 15) {
           return prevNumber + 1;
         } else {
           clearInterval(interval as NodeJS.Timeout); // Stop the interval when number reaches 150
@@ -32,11 +32,11 @@ export default function About() {
       toggleActions: 'restart reverse restart reverse',
       onEnter: () => {
         // Start the interval when the scroll trigger is entered
-        let interval = setInterval(increaseNumber, 15);
+        let interval = setInterval(increaseNumber, 40);
       },
       onLeave: () => {
         // Stop and clear the interval when the scroll trigger is left
-        setNumber(150);
+        setNumber(15);
         clearInterval(interval as NodeJS.Timeout);
       },
     });
@@ -89,7 +89,7 @@ aboutUsElements.forEach((element, index) => {
                 </span>
               </dt>
               <dd className="font-medium text-lg leading-relaxed text-gray-400 dark:text-gray-400 text-center">
-                <br />Projects<br />Completed
+                <br />Years of <br />Experience
               </dd>
 
             </div>
