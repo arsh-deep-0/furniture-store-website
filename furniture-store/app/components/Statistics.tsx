@@ -10,7 +10,7 @@ export default function Statistics() {
 
   const increaseNumber = (numbers:number[]) => {
     
-    const c =[68,45,93,150];
+    const c =[68,45,93,1500];
 
    
 

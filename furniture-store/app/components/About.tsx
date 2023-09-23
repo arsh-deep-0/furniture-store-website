@@ -32,7 +32,7 @@ export default function About() {
       toggleActions: 'restart reverse restart reverse',
       onEnter: () => {
         // Start the interval when the scroll trigger is entered
-        let interval = setInterval(increaseNumber, 40);
+        let interval = setInterval(increaseNumber, 100);
       },
       onLeave: () => {
         // Stop and clear the interval when the scroll trigger is left
@@ -79,7 +79,7 @@ aboutUsElements.forEach((element, index) => {
         <div className="aboutus-container container xl:max-w-7xl mx-auto px-4 py-16 lg:px-8 lg:py-16 space-y-10 lg:space-y-0 lg:flex lg:items-center lg:justify-between">
 
           {/* Stats */}
-          <div className="aboutus grid grid-cols-1 sm:grid-cols-1 gap-4 md:gap-10 lg:w-4/12 lg:flex-none">
+          <div className="aboutus grid grid-cols-1 sm:grid-cols-1 gap-4 md:gap-10 lg:w-3/12 lg:flex-none">
             <div className=" p-5 border-4 rounded-xl flex justify-center items-center">
 
               <dt className=" text-4xl lg:text-5xl font-extrabold text-blue-600 dark:text-blue-600 px-2 py-4">
@@ -96,12 +96,12 @@ aboutUsElements.forEach((element, index) => {
 
           </div>
 
-          <div className="aboutus pl-8">
+          <div className="aboutus pl-8 lg:w-4/12">
             <div className="font-an text-sm uppercase font-bold tracking-wider mb-1 text-blue-500 dark:text-blue-500">
               About Us
             </div>
             <h2 className="text-4xl font-black text-white my-4 dark:text-white">
-              Creative solutions by professional designers
+              of working in GTA (Grand Toronto Area)
             </h2>
           </div>
 
@@ -110,7 +110,7 @@ aboutUsElements.forEach((element, index) => {
 
 
           {/* Heading */}
-          <div className="aboutus text-center lg:pl-8 lg:text-left lg:w-1/2">
+          <div className="aboutus text-center lg:pl-8 lg:text-left lg:w-5/12">
             {/* <h2 className="text-4xl font-black text-black mb-4 dark:text-white">
               Creative solutions by professional designers
             </h2> */}
