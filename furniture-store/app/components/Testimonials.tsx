@@ -18,9 +18,9 @@ export default function Testimonials() {
         ease: 'sine.out',
         scrollTrigger: {
           trigger: '.testi',
-          endTrigger:'.testi-container',
+          endTrigger: '.testi-container',
           start: 'top 90%',
-          end:'bottom 40%',
+          end: 'bottom 40%',
           toggleActions: "restart reverse restart reverse ",
         }
       })
@@ -28,10 +28,10 @@ export default function Testimonials() {
 
 
   }, []);
-  return ( 
+  return (
     <>
       {/* Testimonials Section: Simple Multiple */}
-      <div className="bg-gray-100 dark:text-gray-100 dark:bg-gray-900">
+      <div className="dark bg-gray-100 dark:text-gray-100 dark:bg-gray-900">
         <div className="space-y-16 container xl:max-w-7xl mx-auto px-4 py-16 lg:px-8 lg:py-32">
           {/* Heading */}
           <div className="text-center">
@@ -119,7 +119,7 @@ export default function Testimonials() {
               <div className="relative">
                 <blockquote>
                   <p className="font-medium text-base leading-8 mb-5">
-                  Choosing Universal custom kitchens for my kitchen remodel was a great decision. Their designers and installation team were precise and professional. My kitchen now exceeds expectations. Highly recommend their expertise.
+                    Choosing Universal custom kitchens for my kitchen remodel was a great decision. Their designers and installation team were precise and professional. My kitchen now exceeds expectations. Highly recommend their expertise.
                   </p>
                   <footer className="flex items-center space-x-4">
                     <a href="#" className="flex-none rounded-full overflow-hidden w-16 h-16 transition ease-out duration-150 border-2 border-gray-50 hover:border-white hover:shadow-md hover:scale-125 active:border-gray-50 active:shadow-sm active:scale-110 dark:border-gray-800 dark:shadow-gray-900">
@@ -142,7 +142,7 @@ export default function Testimonials() {
               <div className="relative">
                 <blockquote>
                   <p className="font-medium text-base leading-8 mb-5">
-                  Our kitchen by Universal custom kitchens is a masterpiece. Meticulous attention to detail and expert craftsmanship shine through. It &apos; s more than a kitchen , it &apos; s the heart of our home
+                    Our kitchen by Universal custom kitchens is a masterpiece. Meticulous attention to detail and expert craftsmanship shine through. It &apos; s more than a kitchen , it &apos; s the heart of our home
                   </p>
                   <footer className="flex items-center space-x-4">
                     <a href="#" className="flex-none rounded-full overflow-hidden w-16 h-16 transition ease-out duration-150 border-2 border-gray-50 hover:border-white hover:shadow-md hover:scale-125 active:border-gray-50 active:shadow-sm active:scale-110 dark:border-gray-800 dark:shadow-gray-900">
@@ -165,7 +165,7 @@ export default function Testimonials() {
               <div className="relative">
                 <blockquote>
                   <p className="font-medium text-base leading-8 mb-5">
-                  Incredible results with Universal kitchens. Their precision and design expertise transformed my kitchen into a functional work of art. Highly recommend their outstanding service
+                    Incredible results with Universal kitchens. Their precision and design expertise transformed my kitchen into a functional work of art. Highly recommend their outstanding service
                   </p>
                   <footer className="flex items-center space-x-4">
                     <a href="#" className="flex-none rounded-full overflow-hidden w-16 h-16 transition ease-out duration-150 border-2 border-gray-50 hover:border-white hover:shadow-md hover:scale-125 active:border-gray-50 active:shadow-sm active:scale-110 dark:border-gray-800 dark:shadow-gray-900">

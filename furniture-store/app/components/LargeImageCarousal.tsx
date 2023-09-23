@@ -63,7 +63,7 @@ export default function LargeImageCarousal() {
   return (
     <>
       {/* Image Overlays Section: Overlay Slide Top */}
-      <div className="relative bg-white dark:text-gray-100 dark:bg-gray-900">
+      <div className="relative dark bg-white dark:text-gray-100 dark:bg-gray-900">
         <div className=" container xl:min-w-100  mx-auto px-4 py-4 lg:px-8 lg:pb-8 ">
           {/* Heading */}
           <div className="text-center">

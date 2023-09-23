@@ -34,7 +34,7 @@ function Navbar() {
   return (
     <>
       {/* Main Header */}
-      <header id="page-header" className=" relative   flex justify-center items-center py-8">
+      <header id="page-header" className=" relative   dark flex justify-center items-center py-8">
         {/* Main Header Content */}
 
         <div className="navbar w-full  py-1 px-5  flex flex-col text-center md:flex-row md:items-center md:justify-between space-y-4 md:space-y-0 container xl:max-w-7xl mx-0  lg:px-32">
