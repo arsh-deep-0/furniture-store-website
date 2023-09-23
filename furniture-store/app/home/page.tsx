@@ -18,7 +18,7 @@ export default function Home() {
 
     return (
       
-      <div className="bg-black max-w-full font-frank min-width-full overflow-hidden">
+      <div className="bg-black max-w-full  font-forum min-width-full overflow-hidden">
          <HeroContent />
         <About />
       

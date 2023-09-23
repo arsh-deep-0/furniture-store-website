@@ -89,7 +89,7 @@ export default function AboutContent() {
     <>
       {/* Hero Section: Image Side with Simple Header Dark */}
       <div className="dark">
-        <div className="relative overflow-hidden bg-white dark:text-gray-100 dark:bg-gray-900">
+        <div className="relative  text-gray-100 bg-gray-900 overflow-hidden dark:text-gray-100 dark:bg-gray-900">
 
           {/* Hero Content */}
           <div className="relative flex flex-col lg:flex-row space-y-4 lg:space-y-0 text-center lg:text-left container xl:max-w-7xl mx-auto px-4 pt-32 lg:px-8 lg:py-16 ">
