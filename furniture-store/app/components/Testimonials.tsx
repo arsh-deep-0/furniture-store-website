@@ -55,11 +55,11 @@ export default function Testimonials() {
                   </p>
                   <footer className="flex items-center space-x-4">
                     <a href="#" className="flex-none rounded-full overflow-hidden w-16 h-16 transition ease-out duration-150 border-2 border-gray-50 hover:border-white hover:shadow-md hover:scale-125 active:border-gray-50 active:shadow-sm active:scale-110 dark:border-gray-800 dark:shadow-gray-900">
-                      <img src="https://cdn.tailkit.com/media/placeholders/avatar-mEZ3PoFGs_k-160x160.jpg" alt="Avatar Photo" />
+                      <img src="https://www.iimu.ac.in/upload_data/student-profile/harpreet-singh.jpg" alt="Avatar Photo" />
                     </a>
                     <div>
                       <a href="#" className="font-semibold text-blue-600 hover:text-blue-400 dark:text-blue-400 dark:hover:text-blue-300">
-                        Elsa King
+                      Harpreet Singh
                       </a>
                       <p className="text-sm font-medium text-gray-500 dark:text-gray-400">
                         Senior Client
@@ -77,11 +77,11 @@ export default function Testimonials() {
                     Choosing Universal Kitchens for my kitchen remodel was a great decision. Their designers and installation team were precise and professional. My kitchen now exceeds expectations. Highly recommend their expertise                    </p>
                   <footer className="flex items-center space-x-4">
                     <a href="#" className="flex-none rounded-full overflow-hidden w-16 h-16 transition ease-out duration-150 border-2 border-gray-50 hover:border-white hover:shadow-md hover:scale-125 active:border-gray-50 active:shadow-sm active:scale-110 dark:border-gray-800 dark:shadow-gray-900">
-                      <img src="https://cdn.tailkit.com/media/placeholders/avatar-sibVwORYqs0-160x160.jpg" alt="Avatar Photo" />
+                      <img src="https://media.licdn.com/dms/image/D4D03AQGlMME5kh3Yrg/profile-displayphoto-shrink_800_800/0/1672908936615?e=2147483647&v=beta&t=Dyg9duC6VuwJvjuYpk-nVxNWayYXtmzf7A3wEQHXU9w" alt="Avatar Photo" />
                     </a>
                     <div>
                       <a href="#" className="font-semibold text-blue-600 hover:text-blue-400 dark:text-blue-400 dark:hover:text-blue-300">
-                        Alex Saunders
+                        Jasdeep Singh
                       </a>
                       <p className="text-sm font-medium text-gray-500 dark:text-gray-400">
                         Fresh Designer
@@ -100,11 +100,11 @@ export default function Testimonials() {
                   </p>
                   <footer className="flex items-center space-x-4">
                     <a href="#" className="flex-none rounded-full overflow-hidden w-16 h-16 transition ease-out duration-150 border-2 border-gray-50 hover:border-white hover:shadow-md hover:scale-125 active:border-gray-50 active:shadow-sm active:scale-110 dark:border-gray-800 dark:shadow-gray-900">
-                      <img src="https://cdn.tailkit.com/media/placeholders/avatar-DLKR_x3T_7s-160x160.jpg" alt="Avatar Photo" />
+                      <img src="https://media.licdn.com/dms/image/C5603AQFrFCAPsZAQXA/profile-displayphoto-shrink_800_800/0/1647137068084?e=2147483647&v=beta&t=xz1ANkK599La-rR-tWaxXRS6U3x8iLBAbHXV4m3AhIg" alt="Avatar Photo" />
                     </a>
                     <div>
                       <a href="#" className="font-semibold text-blue-600 hover:text-blue-400 dark:text-blue-400 dark:hover:text-blue-300">
-                        Sue Keller
+                        Simranpreet Kaur
                       </a>
                       <p className="text-sm font-medium text-gray-500 dark:text-gray-400">
                         CEO and Founder
@@ -123,11 +123,11 @@ export default function Testimonials() {
                   </p>
                   <footer className="flex items-center space-x-4">
                     <a href="#" className="flex-none rounded-full overflow-hidden w-16 h-16 transition ease-out duration-150 border-2 border-gray-50 hover:border-white hover:shadow-md hover:scale-125 active:border-gray-50 active:shadow-sm active:scale-110 dark:border-gray-800 dark:shadow-gray-900">
-                      <img src="https://cdn.tailkit.com/media/placeholders/avatar-euZ2n8dGUcQ-160x160.jpg" alt="Avatar Photo" />
+                      <img src="https://media.istockphoto.com/id/182666853/photo/muslim-young-man.jpg?s=612x612&w=0&k=20&c=K7w8NRhTIwp-p9lu2WCFHRE2o2wr9tfpkyJshvGvRuk=" alt="Avatar Photo" />
                     </a>
                     <div>
                       <a href="#" className="font-semibold text-blue-600 hover:text-blue-400 dark:text-blue-400 dark:hover:text-blue-300">
-                        Alejandro Lee
+                        Shameer Ali
                       </a>
                       <p className="text-sm font-medium text-gray-500 dark:text-gray-400">
                         Full Stack Developer
@@ -146,11 +146,11 @@ export default function Testimonials() {
                   </p>
                   <footer className="flex items-center space-x-4">
                     <a href="#" className="flex-none rounded-full overflow-hidden w-16 h-16 transition ease-out duration-150 border-2 border-gray-50 hover:border-white hover:shadow-md hover:scale-125 active:border-gray-50 active:shadow-sm active:scale-110 dark:border-gray-800 dark:shadow-gray-900">
-                      <img src="https://cdn.tailkit.com/media/placeholders/avatar-DLKR_x3T_7s-160x160.jpg" alt="Avatar Photo" />
+                      <img src="https://qph.cf2.quoracdn.net/main-qimg-6ff4cf28fa9f0e6c880de542560b7a60-lq" alt="Avatar Photo" />
                     </a>
                     <div>
                       <a href="#" className="font-semibold text-blue-600 hover:text-blue-400 dark:text-blue-400 dark:hover:text-blue-300">
-                        Sue Keller
+                        Gurpreet Kaur
                       </a>
                       <p className="text-sm font-medium text-gray-500 dark:text-gray-400">
                         CEO and Founder
@@ -169,11 +169,11 @@ export default function Testimonials() {
                   </p>
                   <footer className="flex items-center space-x-4">
                     <a href="#" className="flex-none rounded-full overflow-hidden w-16 h-16 transition ease-out duration-150 border-2 border-gray-50 hover:border-white hover:shadow-md hover:scale-125 active:border-gray-50 active:shadow-sm active:scale-110 dark:border-gray-800 dark:shadow-gray-900">
-                      <img src="https://cdn.tailkit.com/media/placeholders/avatar-euZ2n8dGUcQ-160x160.jpg" alt="Avatar Photo" />
+                      <img src="https://images.unsplash.com/photo-1609528904487-b3476d8f8451?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8bXVzbGltJTIwbWFufGVufDB8fDB8fHww&w=1000&q=80" alt="Avatar Photo" />
                     </a>
                     <div>
                       <a href="#" className="font-semibold text-blue-600 hover:text-blue-400 dark:text-blue-400 dark:hover:text-blue-300">
-                        Alejandro Lee
+                        Mustafa
                       </a>
                       <p className="text-sm font-medium text-gray-500 dark:text-gray-400">
                         Full Stack Developer
