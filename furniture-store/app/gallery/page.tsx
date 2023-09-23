@@ -22,7 +22,7 @@ const imageUrls = [
 function Gallery() {
   return (
     <>
-      <div className="font-frank">
+      <div className="font-frank dark">
 
         <TopHeaderButtonless title="Our Gallery" />
 

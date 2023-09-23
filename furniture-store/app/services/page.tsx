@@ -28,7 +28,7 @@ function Services() {
 
     return (
         <>
-        <div className="font-frank">
+        <div className="font-frank dark">
             <TopHeaderButtonless title="  Services" />
 
             {/* Blog List Section: In Grid */}

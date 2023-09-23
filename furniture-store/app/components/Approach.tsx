@@ -2,7 +2,7 @@ export default function Approach() {
   return (
     <>
       {/* Hero Section: Image Side with Header Actions */}
-      <div className="relative overflow-hidden bg-white dark:text-gray-100 dark:bg-gray-900">
+      <div className="relative dark overflow-hidden bg-white dark:text-gray-100 dark:bg-gray-900">
   {/* Hero Content */}
   <div className="grid items-center justify-center px-4 sm:px-4">
     <div

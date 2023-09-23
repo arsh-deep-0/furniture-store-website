@@ -20,7 +20,7 @@ function Contact() {
   },[])
   return (
     <>
-      <div className="font-frank">
+      <div className="font-frank dark">
         <TopHeaderButtonless title="Contact Us" />
         <section className="text-white pt-24 pb-24 bg-gray-900 body-font relative">
           <div className="contact-box container py-8  px-5 mx-auto grid grid-cols-1 md:flex gap-10 lg:flex">

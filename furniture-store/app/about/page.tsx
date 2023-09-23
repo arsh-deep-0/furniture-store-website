@@ -6,7 +6,7 @@ import TopHeaderButtonless from '../components/TopHeaderButtonless'
 
 function About() {
   return (
-    <> <div className='font-frank'>
+    <> <div className='font-frank dark'>
       <TopHeaderButtonless title="About Us " />
       <AboutContent />
       <Footer />

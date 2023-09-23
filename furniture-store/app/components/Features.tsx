@@ -9,7 +9,7 @@ export default function Features() {
   return (
     <>
       {/* Features Section: Modern with Icons */}
-      <div className="bg-white dark:text-gray-100 dark:bg-gray-900">
+      <div className="bg-white dark dark:text-gray-100 dark:bg-gray-900">
         <div className="space-y-16 container xl:max-w-7xl mx-auto px-4 py-16 lg:px-8 lg:py-32">
           {/* Heading */}
           <div className="text-center">

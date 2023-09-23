@@ -7,39 +7,39 @@ import { MdEmail } from 'react-icons/md';
 gsap.registerPlugin(ScrollTrigger);
 export default function Footer() {
   useEffect(() => {
-    
-    gsap.from('.footer-text',{
-      y:25 ,
-      opacity:0,
-      duration:1,
-      ease:'sine.out', 
-      scrollTrigger:{
-        trigger:'.footer-text',
-        start:'top 95%',
+
+    gsap.from('.footer-text', {
+      y: 25,
+      opacity: 0,
+      duration: 1,
+      ease: 'sine.out',
+      scrollTrigger: {
+        trigger: '.footer-text',
+        start: 'top 95%',
       }
-    })  
-  },[]);
+    })
+  }, []);
 
   return (
     <>
       {/* Page Header Section: Simple Dark with Cover */}
-      <div className="footer dark bg-cover bg-bottom " style={{ backgroundImage: 'url("/home3.jpg")' }}>
+      <div className="footer dark dark bg-cover bg-bottom " style={{ backgroundImage: 'url("/home3.jpg")' }}>
         <div className="bg-white bg-opacity-90 dark:text-gray-100 dark:bg-gray-900/80">
           <div className="space-y-16 container xl:max-w-7xl mx-auto px-4 py-16 lg:px-8 lg:py-32">
             <div className="footer-text text-center">
               <div className="font-an text-sm uppercase font-bold tracking-wider mb-1 text-blue-600 dark:text-blue-500">
-              YOU DREAM IT, WE DESIGN IT
+                YOU DREAM IT, WE DESIGN IT
               </div>
               <h2 className="text-4xl font-black text-black mb-4 dark:text-white">
               We can build you the kitchen of your dreams
               </h2>
               <div className="flex flex-col sm:flex-row sm:items-center sm:justify-center space-y-2 sm:space-y-0 sm:space-x-2 pt-10 pb-16">
-              <a href="https://wa.me/916283959927" target="_blank" className="inline-flex justify-center items-center space-x-2 border font-semibold rounded-lg px-6 py-2 leading-6 border-blue-700 bg-blue-700 text-white hover:text-white hover:bg-blue-600 hover:border-blue-600 focus:ring active:bg-blue-700 active:border-blue-700 focus:ring-blue-400 focus:ring-opacity-90">
-                <span>Schedule Chat</span>
-                <svg className="hi-mini hi-arrow-right inline-block w-5 h-5 opacity-50" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor" aria-hidden="true"><path fillRule="evenodd" d="M3 10a.75.75 0 01.75-.75h10.638L10.23 5.29a.75.75 0 111.04-1.08l5.5 5.25a.75.75 0 010 1.08l-5.5 5.25a.75.75 0 11-1.04-1.08l4.158-3.96H3.75A.75.75 0 013 10z" clipRule="evenodd" /></svg>
-              </a>
-              
-            </div>
+                <a href="https://wa.me/916283959927" target="_blank" className="inline-flex justify-center items-center space-x-2 border font-semibold rounded-lg px-6 py-2 leading-6 border-blue-700 bg-blue-700 text-white hover:text-white hover:bg-blue-600 hover:border-blue-600 focus:ring active:bg-blue-700 active:border-blue-700 focus:ring-blue-400 focus:ring-opacity-90">
+                  <span>Schedule Chat</span>
+                  <svg className="hi-mini hi-arrow-right inline-block w-5 h-5 opacity-50" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor" aria-hidden="true"><path fillRule="evenodd" d="M3 10a.75.75 0 01.75-.75h10.638L10.23 5.29a.75.75 0 111.04-1.08l5.5 5.25a.75.75 0 010 1.08l-5.5 5.25a.75.75 0 11-1.04-1.08l4.158-3.96H3.75A.75.75 0 013 10z" clipRule="evenodd" /></svg>
+                </a>
+
+              </div>
             </div>
           </div>
         </div>
@@ -49,7 +49,24 @@ export default function Footer() {
       <div className="dark">
         <footer id="page-footer" className="bg-white dark:text-gray-100 dark:bg-gray-900">
           <div className="container xl:max-w-7xl mx-auto px-4 py-16 lg:px-8 lg:py-32">
+<<<<<<< Updated upstream
             <div className="grid grid-cols-1 md:grid-cols-3 gap-12 md:gap-6 lg:gap-10">
+=======
+            <div className="grid grid-cols-1 md:grid-cols-4 gap-4 md:gap-6 lg:gap-10">
+
+              <div className="space-y-6">
+                <h4 className="font-medium text-gray-700 hover:text-gray-950 dark:text-gray-400 dark:hover:text-gray-50">
+                  Located in Northeast Brampton, DND Kitchen Cabinets specializes in designing and manufacturing custom-built high-quality cabinets for all kinds of spaces be it residential or commercial.
+                </h4>
+                <h1 className="font-semibold text-4xl">
+                  +1 647-502-6701
+                </h1>
+                <h4 className="font-medium text-blue-500 hover:text-blue-400">
+                  Round The Clock
+                </h4>
+              </div>
+
+>>>>>>> Stashed changes
               <div className="space-y-6">
                 <h4 className="text-xs uppercase font-semibold tracking-wider text-gray-400 dark:text-gray-400/75">
                   Products

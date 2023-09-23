@@ -51,7 +51,7 @@ export default function Logos() {
   return (
     <>
       {/* Logos Section: Condensed with Grayscale Filter */}
-      <div className="bg-white dark:text-gray-100 dark:bg-gray-900">
+      <div className="bg-white dark dark:text-gray-100 dark:bg-gray-900">
         <div className="scr-container container xl:max-w-7xl mx-auto px-4 py-4 lg:px-8">
           <div  className="scroller overflow-hidden flex gap-24 text-center">
             <div className="flex logo  items-center justify-center mx-8">
