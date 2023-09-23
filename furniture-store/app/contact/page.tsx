@@ -22,10 +22,10 @@ function Contact() {
     <>
       <div className="font-frank dark">
         <TopHeaderButtonless title="Contact Us" />
-        <section className="text-white pt-24 pb-24 bg-gray-900 body-font relative">
-          <div className="contact-box container py-8  px-5 mx-auto grid grid-cols-1 md:flex gap-10 lg:flex">
+        <section className="text-white lg:pt-24 pb-24 bg-gray-900 body-font relative">
+          <div className="contact-box container  px-5 mx-auto grid grid-cols-1 md:flex gap-10 lg:flex">
 
-            <div className="lg:w-3/5 md:w-2/3  bg-gray-900 shadow-md rounded-lg  flex flex-col md:ml-auto w-full mt-10 md:mt-0 relative z-10  ">
+            <div className="lg:w-3/5 md:w-2/3 p-8 bg-gray-900 shadow-md rounded-lg  flex flex-col md:ml-auto w-full mt-10 md:mt-0 relative z-10  ">
               <h2 className="text-blue-600    font-ans uppercase font-bold ">Get in touch with us</h2>
               <p className="text-white text-base font-l">Feel free to reach out to us to discuss your custom kitchen needs. Whether you have questions, need advice, or want to get started on your dream kitchen project, we  re here to assist you.
               </p>
@@ -60,7 +60,7 @@ function Contact() {
                     <h3 className="font-an an text-lg font-semibold  text-blue-600">Phone Number</h3>
                   </div>
 
-                  <p className='text-sm font-l'>(647) 667-6786</p>
+                  <p className='text-sm font-l'>+1 647 502-6701</p>
                 </div>
               </div>
               <hr />
@@ -84,7 +84,7 @@ function Contact() {
           <div className="container px-5 py-8 pb-24 mx-auto grid grid-cols-1  md:flex gap-10">
 
 
-            <div className="lg:w-3/5 md:w-2/3 border bg-gray-900 shadow-md rounded-lg  flex flex-col md:ml-auto w-full mt-10 md:mt-0 relative z-10 ">
+            <div className="lg:w-3/5 md:w-2/3 border bg-gray-900 shadow-md rounded-lg  flex flex-col md:ml-auto w-full min-h-full mt-10 md:mt-0 relative z-10 ">
               <iframe title="map" width="100%" height="100%" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2881.3678896819843!2d-79.5637576!3d43.7652216!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x882b3d207ad3c6f1%3A0x9b575a7685a0cdb5!2sUniversal%20Custom%20Kitchens%20Cabinets!5e0!3m2!1sen!2sin!4v1694456545369!5m2!1sen!2sin"
                 style={{ filter: "grayscale(0) contrast(1.2) opacity(0.99)" }}></iframe>
             </div>

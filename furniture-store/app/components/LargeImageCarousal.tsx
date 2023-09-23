@@ -75,7 +75,7 @@ export default function LargeImageCarousal() {
 
           </div>
           {/* END Heading */}
-          <div className="image-container bg-gray-800 py-4 px-4 rounded-md grid grid-cols-1 md:grid-cols-4 gap-16 md:gap-8 lg:gap-16 " style={{ gridAutoRows: 'auto', gridAutoColumns: 'auto' }}>
+          <div className="image-container bg-gray-800 py-4 px-4 rounded-md grid grid-cols-1 md:grid-cols-4 gap-16 md:gap-8 lg:gap-12 " style={{ gridAutoRows: 'auto', gridAutoColumns: 'auto' }}>
             {/* Item */}
 
 
@@ -104,7 +104,7 @@ export default function LargeImageCarousal() {
               </div>
 
 
-              <p className={`left-0  text-center read-more-content ${isOpen ? 'open' : ''} h-auto absolute`}>
+              <p className={`left-0  text-center read-more-content ${isOpen ? 'open' : ''} h-auto absolute text-lg`}>
                 With immense experience and knowledge, Universal Kitchens is the premier kitchen remodeling services provider that has been providing these services for over 5 years now.
               </p>
               {/* END Item Overlay */}
@@ -118,7 +118,7 @@ export default function LargeImageCarousal() {
               style={{ height:'36rem'  }}>
               <div className="absolute w-full text-center p-4  ">
 
-                <h4 className="font-semibold text-lg text-white">
+                <h4 className="font-semibold text-2xl text-white">
                   New Kitchen
                   <br /> Design
                 </h4>
@@ -134,7 +134,7 @@ export default function LargeImageCarousal() {
               </div>
 
 
-              <p className={`left-0  text-center read-more-content ${isOpen2 ? 'open' : ''} h-auto absolute`}>
+              <p className={`left-0  text-center read-more-content ${isOpen2 ? 'open' : ''} h-auto absolute text-lg`}>
                 We understands that your kitchen needs to be changed really fast, but in order to make that happen, you need to hire the best Brampton Kitchen Designers.
               </p>
               {/* END Item Overlay */}
@@ -148,7 +148,7 @@ export default function LargeImageCarousal() {
               style={{ height:'36rem'  }}>
               <div className="absolute w-full text-center p-4   ">
 
-                <h4 className="font-semibold  text-lg text-white">
+                <h4 className="font-semibold  text-2xl text-white">
                   Custom made 
                   <br />Kitchen Cabinets
                 </h4>
@@ -163,7 +163,7 @@ export default function LargeImageCarousal() {
               </div>
               {/* Item Overlay */}
 
-              <p className={`left-0  text-center read-more-content ${isOpen3 ? 'open' : ''} h-auto absolute`}>
+              <p className={`left-0  text-center read-more-content ${isOpen3 ? 'open' : ''} h-auto absolute text-lg`}>
                 One of the key elements that you need to focus on in the kitchen is the cabinets that you have to store all your utensils and kitchen essentials. Without the cabinets, your kitchen would look empty and you will have a hard time storing all your goods and other kitchen things.
               </p>
               {/* END Item Overlay */}
@@ -177,8 +177,9 @@ export default function LargeImageCarousal() {
               style={{ height:'36rem'  }}>
               <div className="absolute w-full text-center p-4  ">
 
-                <h4 className="font-semibold text-lg text-white">
-                  Bar Designing
+                <h4 className="font-semibold text-2xl text-white">
+                  Bar
+                  <br /> Designing
                 </h4>
                 <h5 className="text-sm text-white text-opacity-80 mb-5">
                   Read more...
@@ -191,7 +192,7 @@ export default function LargeImageCarousal() {
               {/* Item Overlay */}
 
 
-              <p className={`left-0  text-center read-more-content ${isOpen4 ? 'open' : ''} h-auto absolute`}>
+              <p className={`left-0  text-center read-more-content ${isOpen4 ? 'open' : ''} h-auto absolute text-lg`}>
                 Spend a good time with your friends, colleagues, and family members at a bar that they have never seen before. We know that designing a bar is something that requires a lot of time and planning, but you want to shorten that by hiring our Bar Cabinets in Brampton.
               </p>
 
