@@ -185,6 +185,28 @@ export default function Testimonials() {
             </div>
           </div>
           {/* END Feedback */}
+          <div className="flex justify-center">
+  <a
+    href="/reviews"
+    className="inline-flex justify-center items-center space-x-2 border font-semibold rounded-lg px-6 py-2 leading-6 border-blue-700 bg-blue-700 text-white hover:text-white hover:bg-blue-600 hover:border-blue-600 focus:ring focus:ring-blue-400 focus:ring-opacity-50 active:bg-blue-700 active:border-blue-700 dark:focus:ring-blue-400 dark:focus:ring-opacity-90"
+  >
+    <span>View More</span>
+    <svg
+      className="hi-mini hi-arrow-right inline-block w-5 h-5 opacity-50"
+      xmlns="http://www.w3.org/2000/svg"
+      viewBox="0 0 20 20"
+      fill="currentColor"
+      aria-hidden="true"
+    >
+      <path
+        fillRule="evenodd"
+        d="M3 10a.75.75 0 01.75-.75h10.638L10.23 5.29a.75.75 0 111.04-1.08l5.5 5.25a.75.75 0 010 1.08l-5.5 5.25a.75.75 0 11-1.04-1.08l4.158-3.96H3.75A.75.75 0 013 10z"
+        clipRule="evenodd"
+      />
+    </svg>
+  </a>
+</div>
+
         </div>
       </div>
       {/* END Testimonials Section: Simple Multiple */}

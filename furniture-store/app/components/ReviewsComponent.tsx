@@ -167,7 +167,7 @@ const Reviews: React.FC<ReviewsProps> = ({ reviews }) => {
               {reviews.map((review, index) => (
                 <>
                   {/* Customer Review */}
-                  <div className="space-y-2">
+                  <div className="space-y-2 pt-4">
                     <div key={index} className="flex items-center space-x-1">
                       <a href="#" className="font-semibold text-black hover:text-gray-600 dark:text-white">
                         {review.name}
