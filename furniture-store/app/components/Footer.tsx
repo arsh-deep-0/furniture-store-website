@@ -49,9 +49,6 @@ export default function Footer() {
       <div className="dark">
         <footer id="page-footer" className="bg-white dark:text-gray-100 dark:bg-gray-900">
           <div className="container xl:max-w-7xl mx-auto px-4 py-16 lg:px-8 lg:py-32">
-<<<<<<< Updated upstream
-            <div className="grid grid-cols-1 md:grid-cols-3 gap-12 md:gap-6 lg:gap-10">
-=======
             <div className="grid grid-cols-1 md:grid-cols-4 gap-4 md:gap-6 lg:gap-10">
 
               <div className="space-y-6">
@@ -66,7 +63,6 @@ export default function Footer() {
                 </h4>
               </div>
 
->>>>>>> Stashed changes
               <div className="space-y-6">
                 <h4 className="text-xs uppercase font-semibold tracking-wider text-gray-400 dark:text-gray-400/75">
                   Products

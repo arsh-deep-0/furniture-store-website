@@ -28,10 +28,7 @@ export default function Home() {
         <Testimonials />
         <Logos />
         <Project />
-<<<<<<< Updated upstream
-=======
         {/* <ViewGallery /> */}
->>>>>>> Stashed changes
         <Statistics />
         <Footer />
       </div>
