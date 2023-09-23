@@ -41,20 +41,25 @@ export default function About() {
       },
     });
 
-    gsap.from(".aboutus",
-      {
-        y: 60,
-        opacity: 0,
-        stagger: 0.25,
-        ease: 'sine.out',
-        scrollTrigger: {
-          trigger: '.aboutus',
-          endTrigger: '.aboutus',
-          start: 'top 96%',
-          end: 'bottom 30%',
-          toggleActions: "restart reverse restart reverse ",
-        }
-      })
+    // Get all elements with the class name 'aboutus'
+const aboutUsElements = document.querySelectorAll('.aboutus');
+
+// Iterate through each element and apply the animation
+aboutUsElements.forEach((element, index) => {
+  gsap.from(element, {
+    y: 60,
+    opacity: 0,
+    stagger: 0.25,
+    ease: 'sine.out',
+    scrollTrigger: {
+      trigger: element, // Use the current element as the trigger
+      start: 'top 96%',
+      end: 'bottom 30%',
+      toggleActions: `restart reverse restart reverse`,
+    },
+  });
+});
+
 
 
 
@@ -80,7 +85,7 @@ export default function About() {
               <dt className=" text-4xl lg:text-5xl font-extrabold text-blue-600 dark:text-blue-600 px-2 py-4">
                 <span className="inline-block relative">
                   {/* <span className="absolute inline-block inset-0 translate-x-1 translate-y-1 text-blue-200 select-none transition group-hover:translate-x-0 group-hover:translate-y-0 dark:text-blue-800 text-7xl">150+</span> */}
-                  <span className="font-anl number relative text-7xl">{number}+</span>
+                  <span className="font-forum number relative text-7xl">{number}+</span>
                 </span>
               </dt>
               <dd className="font-medium text-lg leading-relaxed text-gray-400 dark:text-gray-400 text-center">

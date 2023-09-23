@@ -15,7 +15,7 @@ function TopHeaderButtonless({title}: TopHeaderButtonlessProps) {
           <Navbar />
             {/* Hero Content */}
             <div className="relative text-center container xl:max-w-7xl mx-auto px-4 py-16 lg:px-8 lg:py-32">
-              <div className="font-l text-sm rounded font-medium inline-flex px-2 py-1 leading-4 mb-2 uppercase">
+              <div className="text-white font-l text-sm rounded font-medium inline-flex px-2 py-1 leading-4 mb-2 uppercase">
                 Homepage &nbsp;&nbsp;&nbsp;/&nbsp;&nbsp;&nbsp; {title}
               </div>
               <h1 className="text-7xl font-bold text-white">

@@ -94,7 +94,7 @@ const Reviews: React.FC<ReviewsProps> = ({ reviews }) => {
                     </svg>
                   </div>
                   <h4 className="inline-block">
-                    <strong>4.5</strong> out of <strong>5.0</strong> stars
+                    <strong>4.7</strong> out of <strong>5.0</strong> stars
                   </h4>
                 </div>
                
@@ -103,16 +103,16 @@ const Reviews: React.FC<ReviewsProps> = ({ reviews }) => {
                 <div className="flex items-center space-x-2">
                   <div className="flex-none w-14 text-sm font-medium">5 stars</div>
                   <div className="grow flex items-center w-full h-2 bg-gray-100 rounded-lg overflow-hidden dark:bg-gray-600">
-                    <div role="progressbar" aria-valuenow={78} aria-valuemin={0} aria-valuemax={100} className="flex items-center justify-center self-stretch transition-all duration-500 ease-out bg-amber-500 text-white text-sm font-semibold" style={{ width: '78%' }} />
+                    <div role="progressbar" aria-valuenow={81} aria-valuemin={0} aria-valuemax={100} className="flex items-center justify-center self-stretch transition-all duration-500 ease-out bg-amber-500 text-white text-sm font-semibold" style={{ width: '81%' }} />
                   </div>
-                  <div className="w-12 text-xs font-medium text-right text-gray-600 dark:text-gray-400">78%</div>
+                  <div className="w-12 text-xs font-medium text-right text-gray-600 dark:text-gray-400">81%</div>
                 </div>
                 <div className="flex items-center space-x-2">
                   <div className="flex-none w-14 text-sm font-medium">4 stars</div>
                   <div className="grow flex items-center w-full h-2 bg-gray-100 rounded-lg overflow-hidden dark:bg-gray-600">
-                    <div role="progressbar" aria-valuenow={8} aria-valuemin={0} aria-valuemax={100} className="flex items-center justify-center self-stretch transition-all duration-500 ease-out bg-amber-500 text-white text-sm font-semibold" style={{ width: '8%' }} />
+                    <div role="progressbar" aria-valuenow={11} aria-valuemin={0} aria-valuemax={100} className="flex items-center justify-center self-stretch transition-all duration-500 ease-out bg-amber-500 text-white text-sm font-semibold" style={{ width: '11%' }} />
                   </div>
-                  <div className="w-12 text-xs font-medium text-right text-gray-600 dark:text-gray-400">8%</div>
+                  <div className="w-12 text-xs font-medium text-right text-gray-600 dark:text-gray-400">11%</div>
                 </div>
                 <div className="flex items-center space-x-2">
                   <div className="flex-none w-14 text-sm font-medium">3 stars</div>
@@ -124,16 +124,16 @@ const Reviews: React.FC<ReviewsProps> = ({ reviews }) => {
                 <div className="flex items-center space-x-2">
                   <div className="flex-none w-14 text-sm font-medium">2 stars</div>
                   <div className="grow flex items-center w-full h-2 bg-gray-100 rounded-lg overflow-hidden dark:bg-gray-600">
-                    <div role="progressbar" aria-valuenow={3} aria-valuemin={0} aria-valuemax={100} className="flex items-center justify-center self-stretch transition-all duration-500 ease-out bg-amber-500 text-white text-sm font-semibold" style={{ width: '3%' }} />
+                    <div role="progressbar" aria-valuenow={2} aria-valuemin={0} aria-valuemax={100} className="flex items-center justify-center self-stretch transition-all duration-500 ease-out bg-amber-500 text-white text-sm font-semibold" style={{ width: '2%' }} />
                   </div>
-                  <div className="w-12 text-xs font-medium text-right text-gray-600 dark:text-gray-400">3%</div>
+                  <div className="w-12 text-xs font-medium text-right text-gray-600 dark:text-gray-400">2%</div>
                 </div>
                 <div className="flex items-center space-x-2">
                   <div className="flex-none w-14 text-sm font-medium">1 star</div>
                   <div className="grow flex items-center w-full h-2 bg-gray-100 rounded-lg overflow-hidden dark:bg-gray-600">
-                    <div role="progressbar" aria-valuenow={6} aria-valuemin={0} aria-valuemax={100} className="flex items-center justify-center self-stretch transition-all duration-500 ease-out bg-amber-500 text-white text-sm font-semibold" style={{ width: '6%' }} />
+                    <div role="progressbar" aria-valuenow={2} aria-valuemin={0} aria-valuemax={100} className="flex items-center justify-center self-stretch transition-all duration-500 ease-out bg-amber-500 text-white text-sm font-semibold" style={{ width: '2%' }} />
                   </div>
-                  <div className="w-12 text-xs font-medium text-right text-gray-600 dark:text-gray-400">6%</div>
+                  <div className="w-12 text-xs font-medium text-right text-gray-600 dark:text-gray-400">2%</div>
                 </div>
               </div>
               <hr className="mb-5 border-gray-200/75 dark:border-gray-700/50" />
