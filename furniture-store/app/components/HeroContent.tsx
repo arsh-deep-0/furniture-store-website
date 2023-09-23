@@ -59,7 +59,7 @@ function HeroContent() {
   return (
     <>
       {/* Hero Section: Image Cover with Header Actions Dark */}
-      <div className="relative w-full max-h-full dark bg-cover bg-bottom bg-no-repeat font-frank" style={{ minHeight: '100vh', maxHeight: '100vh', }}>
+      <div className="relative dark w-full max-h-full dark bg-cover bg-bottom bg-no-repeat " style={{ minHeight: '100vh', maxHeight: '100vh', }}>
 
         <div className=''>
           <div className="hero1 dark bg-cover bg-bottom bg-no-repeat absolute min-h-screen min-w-full top-full" style={{ backgroundImage: `url(/home.jpg)`, minHeight: '100vh', }}>

@@ -8,7 +8,7 @@ export default function ImageCarousal({ imageUrls }: ImageCarousalProps) {
   return (
     <>
       {/* Image Overlays Section: Overlay Slide Top */}
-      <div className="bg-white dark:text-gray-100 dark:bg-gray-900">
+      <div className="bg-white dark dark:text-gray-100 dark:bg-gray-900">
         <div className="container xl:max-w-7xl mx-auto px-4 py-8 lg:px-8 space-y-16">
           <div className="grid grid-cols-1 md:grid-cols-3 gap-4 md:gap-8">
             {imageUrls.map((url, index) => (

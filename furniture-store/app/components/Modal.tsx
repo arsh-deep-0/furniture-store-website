@@ -18,7 +18,7 @@ export default function Modal(){
     },[])
     return<>
     {
-        <div className="modal  border rounded-md h-8 w-28 absolute bottom-16 lg:bottom-16 right-5 flex flex-row items-center justify-center">
+        <div className="modal dark border rounded-md h-8 w-28 absolute bottom-16 lg:bottom-16 right-5 flex flex-row items-center justify-center">
          <p className='font-frank'>Get Quote</p>
         </div>
     } 

@@ -49,15 +49,15 @@ export default function About() {
         ease: 'sine.out',
         scrollTrigger: {
           trigger: '.aboutus',
-          endTrigger:'.aboutus',
+          endTrigger: '.aboutus',
           start: 'top 96%',
-          end:'bottom 30%',
+          end: 'bottom 30%',
           toggleActions: "restart reverse restart reverse ",
         }
       })
 
 
-    
+
 
     // Clear the interval when the component unmounts
     return () => {
@@ -89,18 +89,18 @@ export default function About() {
 
             </div>
 
-            </div>
+          </div>
 
-            <div className="aboutus pl-8">
-              <div className="font-an text-sm uppercase font-bold tracking-wider mb-1 text-blue-500 dark:text-blue-500">
-                About Us
-              </div>
-              <h2 className="text-4xl font-black text-white my-4 dark:text-white">
-                Creative solutions by professional designers
-              </h2>
+          <div className="aboutus pl-8">
+            <div className="font-an text-sm uppercase font-bold tracking-wider mb-1 text-blue-500 dark:text-blue-500">
+              About Us
             </div>
+            <h2 className="text-4xl font-black text-white my-4 dark:text-white">
+              Creative solutions by professional designers
+            </h2>
+          </div>
 
-          
+
           {/* END Stats */}
 
 
