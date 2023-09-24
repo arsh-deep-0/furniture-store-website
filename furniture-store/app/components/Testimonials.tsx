@@ -24,10 +24,8 @@ export default function Testimonials() {
           toggleActions: "restart reverse restart reverse ",
         }
       })
-
-
-
   }, []);
+  
   return (
     <>
       {/* Testimonials Section: Simple Multiple */}

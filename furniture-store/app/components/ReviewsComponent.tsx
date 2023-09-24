@@ -1,6 +1,10 @@
 import React from 'react';
 import Footer from '../components/Footer';
 import TopHeaderButtonless from '../components/TopHeaderButtonless';
+import { useEffect, useRef } from 'react';
+import { ScrollTrigger } from 'gsap/ScrollTrigger';
+gsap.registerPlugin(ScrollTrigger);
+import gsap from 'gsap';
 
 interface Review {
   name: string;
@@ -15,6 +19,20 @@ interface ReviewsProps {
 }
 
 const Reviews: React.FC<ReviewsProps> = ({ reviews }) => {
+
+  useEffect(() => {
+    gsap.from(".summary", {
+      scrollTrigger: {
+        trigger: '.summary',
+        endTrigger: '.reviews',
+        end:'bottom bottom',
+        start: 'top 12%',
+        pin: true, // Set pin to false to make it not move on scrolling
+      
+      }
+    })
+  }, []);
+
   return (
     <>
       <div className="font-frank dark">
@@ -22,7 +40,7 @@ const Reviews: React.FC<ReviewsProps> = ({ reviews }) => {
         <div className="bg-white dark:text-gray-100 dark:bg-gray-900">
           <div className="container xl:max-w-7xl mx-auto px-4 py-16 lg:px-8 lg:py-32 grid grid-cols-1 lg:grid-cols-12 gap-12 lg:gap-24">
             {/* Reviews Summary */}
-            <section className="lg:col-span-4">
+            <section className="summary h-96 lg:col-span-4">
               <div className="space-y-3">
                 <h2 className="text-lg font-bold">Customer Reviews</h2>
                 <div className="space-x-2 flex items-center">
@@ -97,7 +115,7 @@ const Reviews: React.FC<ReviewsProps> = ({ reviews }) => {
                     <strong>4.7</strong> out of <strong>5.0</strong> stars
                   </h4>
                 </div>
-               
+
               </div>
               <div className="py-5 space-y-3">
                 <div className="flex items-center space-x-2">
@@ -163,7 +181,7 @@ const Reviews: React.FC<ReviewsProps> = ({ reviews }) => {
             {/* END Reviews Summary */}
 
             {/* Reviews */}
-            <div className="lg:col-span-8">
+            <div className="reviews lg:col-span-8">
               {reviews.map((review, index) => (
                 <>
                   {/* Customer Review */}
