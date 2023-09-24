@@ -56,7 +56,7 @@ export default function Footer() {
                   Located in Northeast Brampton, DND Kitchen Cabinets specializes in designing and manufacturing custom-built high-quality cabinets for all kinds of spaces be it residential or commercial.
                 </h4>
                 <h1 className="font-semibold text-4xl">
-                  +1 647-502-6701
+                  +1 437-998-8226
                 </h1>
                 <h4 className="font-medium text-blue-500 hover:text-blue-400">
                   Round The Clock

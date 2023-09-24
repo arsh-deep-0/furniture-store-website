@@ -60,7 +60,7 @@ function Contact() {
                     <h3 className="font-an an text-lg font-semibold  text-blue-600">Phone Number</h3>
                   </div>
 
-                  <p className='text-sm font-l'>+1 647 502-6701</p>
+                  <p className='text-sm font-l'>+1 437-998-8226</p>
                 </div>
               </div>
               <hr />
