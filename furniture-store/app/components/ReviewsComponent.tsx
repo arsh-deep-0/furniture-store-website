@@ -21,16 +21,18 @@ interface ReviewsProps {
 const Reviews: React.FC<ReviewsProps> = ({ reviews }) => {
 
   useEffect(() => {
-    gsap.from(".summary", {
-      scrollTrigger: {
-        trigger: '.summary',
-        endTrigger: '.reviews',
-        end:'bottom bottom',
-        start: 'top 12%',
-        pin: true, // Set pin to false to make it not move on scrolling
-      
-      }
-    })
+    // Check if the screen size is large (lg) before running the animation
+    if (window.innerWidth >= 1024) { // Adjust the width as needed
+      gsap.from(".summary", {
+        scrollTrigger: {
+          trigger: '.summary',
+          endTrigger: '.reviews',
+          end: 'bottom bottom',
+          start: 'top 12%',
+          pin: true,
+        }
+      });
+    }
   }, []);
 
   return (
@@ -40,7 +42,7 @@ const Reviews: React.FC<ReviewsProps> = ({ reviews }) => {
         <div className="bg-white dark:text-gray-100 dark:bg-gray-900">
           <div className="container xl:max-w-7xl mx-auto px-4 py-16 lg:px-8 lg:py-32 grid grid-cols-1 lg:grid-cols-12 gap-12 lg:gap-24">
             {/* Reviews Summary */}
-            <section className="summary h-96 lg:col-span-4">
+            <section className="  h-96 lg:col-span-4 summary">
               <div className="space-y-3">
                 <h2 className="text-lg font-bold">Customer Reviews</h2>
                 <div className="space-x-2 flex items-center">
@@ -181,7 +183,7 @@ const Reviews: React.FC<ReviewsProps> = ({ reviews }) => {
             {/* END Reviews Summary */}
 
             {/* Reviews */}
-            <div className="reviews lg:col-span-8">
+            <div className="reviews  lg:col-span-8">
               {reviews.map((review, index) => (
                 <>
                   {/* Customer Review */}
