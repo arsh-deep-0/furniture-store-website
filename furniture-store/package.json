@@ -23,6 +23,7 @@
     "react-dom": "18.2.0",
     "react-icons": "^4.11.0",
     "react-router-dom": "^6.16.0",
+    "split-type": "^0.3.3",
     "tailwindcss": "3.3.3",
     "typescript": "5.2.2"
   }

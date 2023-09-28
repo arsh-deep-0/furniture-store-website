@@ -261,3 +261,7 @@
       padding: 5%;
     }
   }
+
+  .text-reveal{
+    font-kerning: none;
+  }
