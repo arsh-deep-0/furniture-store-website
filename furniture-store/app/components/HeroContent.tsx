@@ -1,6 +1,7 @@
 import React from 'react'
 import Navbar from './Navbar'
 import TextTypingEffect from './typingText'
+import TextRevealingEffect from './textReveal'
 import gsap from 'gsap'
 import { useEffect, useState } from 'react';
 import Modal from './Modal'
@@ -29,7 +30,8 @@ function HeroContent() {
       ease: 'sine.out',
 
     });
-    let zoom1 = (i: any) => {
+
+    let zoom = (i: any) => {
       const hero = document.querySelector(`.hero${i}`);
       console.log('hi', i);
       gsap.fromTo(hero, { scale: 1.0 }, {
@@ -43,17 +45,21 @@ function HeroContent() {
       gsap.to(`.hero${i}`, {
         delay: 5 * (i),
         duration: 2,
-        top:0,
-          ease: 'back.inOut',
-        onComplete: () => zoom1(i),
+        top: 0,
+        ease: 'back.inOut',
+        onComplete: () => zoom(i),
       })
     }
 
-    for (let i = 1; i < 6; i++) {
-      comeup(i);
+    const startCalling = () => {
+      for (let i = 1; i < 6; i++) {
+        comeup(i);
+      }
     }
 
-    gsap.fromTo(".vertical-line", {opacity:0,scaleY:1,display:'none',},{ delay:0.75,scaleY: 50, opacity:1,display:'block', duration: 1.1, ease: "power4.inOut" })
+    setTimeout(startCalling, 200)
+
+    gsap.fromTo(".vertical-line", { opacity: 0, scaleY: 1, display: 'none', }, { delay: 0.75, scaleY: 50, opacity: 1, display: 'block', duration: 1.1, ease: "power4.inOut" })
 
   }, []);
   return (
@@ -86,7 +92,7 @@ function HeroContent() {
 ">
               Elevate your space
             </div>
-            <TextTypingEffect />
+            <TextRevealingEffect />
             <h2 className="h2 text-sm font-l leading-relaxed font-medium sm:my-0 lg:w-2/3 mx-auto text-gray-300 lg:font-l lg:text-lg">
               Designed to inspire, our kitchen solutions combine elegance and functionality to transform your cooking space into a culinary haven and experience the joy !
             </h2>
