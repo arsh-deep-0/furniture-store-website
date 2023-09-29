@@ -35,7 +35,7 @@ const TextRevealingEffect = () => {
                         end: 'top 20%',
                     },
                     opacity: 0.0,
-                    y:10,
+                 
                     stagger: 0.035,
                     duration: 0.4,
                     ease: 'back.inOut',

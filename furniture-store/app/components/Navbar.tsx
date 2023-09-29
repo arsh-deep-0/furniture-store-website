@@ -136,7 +136,7 @@ function Navbar() {
 
           <div className='min-h-full bg-blue-600 px-5'>
             <ImCross className='cross ' id='cross' onClick={hideNavbar}></ImCross>
-            <nav className=" flex flex-col items-center justify-center  lg:space-y-0 lg:flex-row lg:items-center lg:justify-center lg:space-x-3 md:flex-row md:space-x-6 sm:flex-col sm:space-y-6">
+            <nav className=" flex flex-col items-center justify-center  lg:space-y-0 lg:flex-row lg:items-center lg:justify-center lg:space-x-3 md:flex-row md:space-x-6 sm:flex-col sm:space-y-8">
               <a href="/" className={`hidden text-xl  text-gray-100 hover:text-blue-600 dark:text-gray-100 dark:hover:text-blue-400 `}>
                 <span className='new-nav font-forum text-xl'>Home</span>
               </a>
@@ -163,7 +163,7 @@ function Navbar() {
 
             </nav>
             <div className=" rounded-lg flex items-center justify-center space-x-2 mr-0"> 
-              <a href="mailto:univkitchens@gmail.com" className="w-32 button text-normal inline-flex  justify-center items-center space-x-2 border  rounded-md px-3 py-1 leading-6 border-blue-700 bg-gray-900 text-white hover:text-white hover:bg-blue-600 hover:border-blue-600 focus:ring active:bg-blue-700 active:border-blue-700 focus:ring-blue-400 focus:ring-opacity-90">
+              <a href="mailto:univkitchens@gmail.com" className="w-28 button text-normal inline-flex  justify-center items-center space-x-2 border  rounded-md px-3 py-1 leading-6 border-blue-700 bg-gray-900 text-white hover:text-white hover:bg-blue-600 hover:border-blue-600 focus:ring active:bg-blue-700 active:border-blue-700 focus:ring-blue-400 focus:ring-opacity-90">
                 <span className=''>Email Us</span>
                 <MdEmail />
               </a>
@@ -179,18 +179,18 @@ function Navbar() {
             <div className=" space-y-2 mt-8 flex flex-col flex-wrap justify-center items-center">
               
 
-              <h1 className="text-white font-semibold text-2xl">
+              <h1 className="text-white font-semibold text-lg">
               Best in the Business
               </h1>
              
 
-              <h4 className="font-medium text-blue-500 hover:text-blue-400">
+              <h4 className="font-medium text-blue-500 hover:text-blue-400 text-base">
                 univkitchens@gmail.com
               </h4>
-              <h1 className="text-white  text-2xl">
+              <h1 className="text-white  text-lg">
                 +1 437-998-8226
               </h1>
-              <h4 className="text-white  text-lg">
+              <h4 className="text-white  text-sm">
                 857 Fenmar Drive , North York<br/>Toronto Ontario, M9L1C8
               </h4>
               <div className="sm-modal  dark rounded-md h-10 w-32 gap-2  flex flex-row items-center justify-center">
