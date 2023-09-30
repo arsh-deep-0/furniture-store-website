@@ -93,7 +93,7 @@ function HeroContent() {
               Elevate your space
             </div>
             <TextRevealingEffect />
-            <h2 className="h2 text-sm font-l leading-relaxed font-medium sm:my-0 lg:w-2/3 mx-auto text-gray-300 lg:font-l lg:text-lg">
+            <h2 className="h2 text-sm  leading-relaxed font-medium sm:my-0 lg:w-2/3 mx-auto text-gray-300 lg:font-l lg:text-lg lg:font-l">
               Designed to inspire, our kitchen solutions combine elegance and functionality to transform your cooking space into a culinary haven and experience the joy !
             </h2>
             <div className="h3 flex flex-col sm:flex-row sm:items-center sm:justify-center space-y-2 sm:space-y-0 sm:space-x-2 pt-10 pb-16 ">
