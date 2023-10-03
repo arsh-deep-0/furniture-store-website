@@ -3,6 +3,7 @@ import React from 'react'
 import ImageCarousal from '../components/ImageCarousal'
 import Footer from '../components/Footer'
 import TopHeaderButtonless from '../components/TopHeaderButtonless'
+import CustomCursor from "../components/CustomCursor";
 
 const imageUrls = [
   'https://dndkitchencabinets.com/wp-content/uploads/2022/06/projects-12-850x520.jpg',
@@ -22,6 +23,7 @@ const imageUrls = [
 function Gallery() {
   return (
     <>
+     <CustomCursor/>
       <div className="font-frank dark">
 
         <TopHeaderButtonless title="Our Gallery" />

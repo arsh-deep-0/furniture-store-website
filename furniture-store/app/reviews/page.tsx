@@ -1,6 +1,7 @@
 "use client";
 import React from 'react';
 import Reviews from '../components/ReviewsComponent'; // Adjust the import path as needed
+import CustomCursor from "../components/CustomCursor";
 
 const App: React.FC = () => {
   
@@ -360,6 +361,7 @@ const App: React.FC = () => {
 
   return (
     <div>
+       <CustomCursor/>
       {/* Use the Reviews component and pass the reviews prop */}
       <Reviews reviews={reviews} />
     </div>

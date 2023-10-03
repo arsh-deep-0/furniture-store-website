@@ -11,6 +11,7 @@ import Logos from "../components/Logos";
 import Project from "../components/Project";
 import Statistics from "../components/Statistics";
 import Testimonials from "../components/Testimonials";
+import CustomCursor from "../components/CustomCursor";
 import gsap from 'gsap';
 
 
@@ -19,6 +20,7 @@ export default function Home() {
     return (
       
       <div className="bg-black max-w-full dark font-forum min-width-full overflow-hidden">
+        <CustomCursor/>
          <HeroContent />
         <About />
       

@@ -3,9 +3,29 @@ import { BsTools } from 'react-icons/bs';
 import { FaKitchenSet } from 'react-icons/fa6';
 import { BsFillCheckCircleFill } from 'react-icons/bs';
 
+import React, { useRef, useEffect } from 'react';
+import gsap from 'gsap';
+
+
+
 
 
 export default function Features() {
+
+  const divRef = useRef(null);
+
+
+  useEffect(() => {
+    // Function to scroll to the target div
+    const scrollToDiv = () => {
+      gsap.to(window, {
+        duration: 1,
+        scrollTo: { y: divRef.current||0, offsetY: 50 }, // Adjust offsetY as needed
+      });
+    };
+  }, []);
+
+
   return (
     <>
       {/* Features Section: Modern with Icons */}
@@ -14,7 +34,7 @@ export default function Features() {
           {/* Heading */}
           <div className="text-center">
 
-            <div className="font-an text-sm uppercase font-bold tracking-wider mb-1 text-blue-600 dark:text-blue-500">
+            <div ref={divRef} className="font-an text-sm uppercase font-bold tracking-wider mb-1 text-blue-600 dark:text-blue-500">
 
               WHY CHOOSE US
             </div>
@@ -45,7 +65,7 @@ export default function Features() {
               <div className="group inline-flex items-center justify-center w-12 h-12 ml-3 mb-8 relative">
                 <div className="absolute inset-0 rounded-xl -m-3 -rotate-6 bg-blue-400 transition ease-out duration-150 group-hover:rotate-6 group-hover:scale-110 dark:bg-blue-900" />
                 <div className="absolute inset-0 rounded-xl -m-3 rotate-2 bg-blue-800 bg-opacity-75 shadow-inner transition ease-out duration-150 group-hover:-rotate-3 group-hover:scale-110 dark:bg-blue-700" />
-                <svg className="hi-outline hi-device-phone-mobile inline-block w-8 h-8 text-white relative transition ease-out duration-150 opacity-90 group-hover:scale-125 group-hover:opacity-100" xmlns="http://www.w3.org/2000/svg" fill="#FFFFFF" height="24" viewBox="0 -960 960 960" width="24"><path d="m344-60-76-128-144-32 14-148-98-112 98-112-14-148 144-32 76-128 136 58 136-58 76 128 144 32-14 148 98 112-98 112 14 148-144 32-76 128-136-58-136 58Zm34-102 102-44 104 44 56-96 110-26-10-112 74-84-74-86 10-112-110-24-58-96-102 44-104-44-56 96-110 24 10 112-74 86 74 84-10 114 110 24 58 96Zm102-318Zm-42 142 226-226-56-58-170 170-86-84-56 56 142 142Z"/></svg>              </div>
+                <svg className="hi-outline hi-device-phone-mobile inline-block w-8 h-8 text-white relative transition ease-out duration-150 opacity-90 group-hover:scale-125 group-hover:opacity-100" xmlns="http://www.w3.org/2000/svg" fill="#FFFFFF" height="24" viewBox="0 -960 960 960" width="24"><path d="m344-60-76-128-144-32 14-148-98-112 98-112-14-148 144-32 76-128 136 58 136-58 76 128 144 32-14 148 98 112-98 112 14 148-144 32-76 128-136-58-136 58Zm34-102 102-44 104 44 56-96 110-26-10-112 74-84-74-86 10-112-110-24-58-96-102 44-104-44-56 96-110 24 10 112-74 86 74 84-10 114 110 24 58 96Zm102-318Zm-42 142 226-226-56-58-170 170-86-84-56 56 142 142Z" /></svg>              </div>
               <h4 className="text-lg font-bold mb-2">
                 Material Selection
               </h4>
@@ -57,7 +77,7 @@ export default function Features() {
               <div className="group inline-flex items-center justify-center w-12 h-12 ml-3 mb-8 relative">
                 <div className="absolute inset-0 rounded-xl -m-3 -rotate-6 bg-blue-400 transition ease-out duration-150 group-hover:rotate-6 group-hover:scale-110 dark:bg-blue-900" />
                 <div className="absolute inset-0 rounded-xl -m-3 rotate-2 bg-blue-800 bg-opacity-75 shadow-inner transition ease-out duration-150 group-hover:-rotate-3 group-hover:scale-110 dark:bg-blue-700" />
-                <svg className="hi-outline hi-device-phone-mobile inline-block w-8 h-8 text-white relative transition ease-out duration-150 opacity-90 group-hover:scale-125 group-hover:opacity-100" xmlns="http://www.w3.org/2000/svg" fill="#FFFFFF" height="24" viewBox="0 -960 960 960" width="24"><path d="M80-160v-112q0-33 17-62t47-44q51-26 115-44t141-18q30 0 58.5 3t55.5 9l-70 70q-11-2-21.5-2H400q-71 0-127.5 17T180-306q-9 5-14.5 14t-5.5 20v32h250l80 80H80Zm542 16L484-282l56-56 82 82 202-202 56 56-258 258ZM400-480q-66 0-113-47t-47-113q0-66 47-113t113-47q66 0 113 47t47 113q0 66-47 113t-113 47Zm10 240Zm-10-320q33 0 56.5-23.5T480-640q0-33-23.5-56.5T400-720q-33 0-56.5 23.5T320-640q0 33 23.5 56.5T400-560Zm0-80Z"/></svg>
+                <svg className="hi-outline hi-device-phone-mobile inline-block w-8 h-8 text-white relative transition ease-out duration-150 opacity-90 group-hover:scale-125 group-hover:opacity-100" xmlns="http://www.w3.org/2000/svg" fill="#FFFFFF" height="24" viewBox="0 -960 960 960" width="24"><path d="M80-160v-112q0-33 17-62t47-44q51-26 115-44t141-18q30 0 58.5 3t55.5 9l-70 70q-11-2-21.5-2H400q-71 0-127.5 17T180-306q-9 5-14.5 14t-5.5 20v32h250l80 80H80Zm542 16L484-282l56-56 82 82 202-202 56 56-258 258ZM400-480q-66 0-113-47t-47-113q0-66 47-113t113-47q66 0 113 47t47 113q0 66-47 113t-113 47Zm10 240Zm-10-320q33 0 56.5-23.5T480-640q0-33-23.5-56.5T400-720q-33 0-56.5 23.5T320-640q0 33 23.5 56.5T400-560Zm0-80Z" /></svg>
               </div>
               <h4 className="text-lg font-bold mb-2">
                 Skilled Installation
@@ -68,7 +88,7 @@ export default function Features() {
             </div>
             <div className="py-5 text-center">
               <div className="group inline-flex items-center justify-center w-12 h-12 ml-3 mb-8 relative">
-              
+
                 <div className="absolute inset-0 rounded-xl -m-3 -rotate-6 bg-blue-400 transition ease-out duration-150 group-hover:rotate-6 group-hover:scale-110 dark:bg-blue-900" />
                 <div className="absolute inset-0 rounded-xl -m-3 rotate-2 bg-blue-800 bg-opacity-75 shadow-inner transition ease-out duration-150 group-hover:-rotate-3 group-hover:scale-110 dark:bg-blue-700" />
                 <div className="rounded-md h-20 w-64 gap-2 absolute   flex flex-row items-center justify-center">
@@ -87,7 +107,7 @@ export default function Features() {
             </div>
             <div className="py-5 text-center">
               <div className="group inline-flex items-center justify-center w-12 h-12 ml-3 mb-8 relative">
-+
+                +
                 <div className="absolute inset-0 rounded-xl -m-3 -rotate-6 bg-blue-400 transition ease-out duration-150 group-hover:rotate-6 group-hover:scale-110 dark:bg-blue-900" />
                 <div className="absolute inset-0 rounded-xl -m-3 rotate-2 bg-blue-800 bg-opacity-75 shadow-inner transition ease-out duration-150 group-hover:-rotate-3 group-hover:scale-110 dark:bg-blue-700" />
                 <div className="rounded-md h-10 w-32 gap-2 absolute   flex flex-row items-center justify-center">
@@ -100,7 +120,7 @@ export default function Features() {
               </h4>
 
               <p className="text-center leading-relaxed text-gray-600 dark:text-gray-400">
-              Value means many things to different people. We pledge to consistently deliver optimal value and satisfaction for each and every client
+                Value means many things to different people. We pledge to consistently deliver optimal value and satisfaction for each and every client
 
               </p>
             </div>
@@ -109,16 +129,16 @@ export default function Features() {
 
                 <div className="absolute inset-0 rounded-xl -m-3 -rotate-6 bg-blue-400 transition ease-out duration-150 group-hover:rotate-6 group-hover:scale-110 dark:bg-blue-900" />
                 <div className="absolute inset-0 rounded-xl -m-3 rotate-2 bg-blue-800 bg-opacity-75 shadow-inner transition ease-out duration-150 group-hover:-rotate-3 group-hover:scale-110 dark:bg-blue-700" />
-           
+
                 <div className="rounded-md h-10 w-32 gap-2 absolute   flex flex-row items-center justify-center">
-                <BsFillCheckCircleFill className='icon-white relative transition ease-out duration-150 opacity-90 group-hover:scale-125 group-hover:opacity-100'/>
+                  <BsFillCheckCircleFill className='icon-white relative transition ease-out duration-150 opacity-90 group-hover:scale-125 group-hover:opacity-100' />
                 </div>
               </div>
               <h4 className="text-lg font-bold mb-2">
                 Professional Installation
               </h4>
               <p className="text-center leading-relaxed text-gray-600 dark:text-gray-400">
-              Our highly skilled craftsmen will expertly install your new kitchen with precision and meticulous attention to detail, ensuring a flawless and seamless fit
+                Our highly skilled craftsmen will expertly install your new kitchen with precision and meticulous attention to detail, ensuring a flawless and seamless fit
 
               </p>
             </div>

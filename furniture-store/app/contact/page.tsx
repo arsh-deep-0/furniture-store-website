@@ -5,6 +5,7 @@ import TopHeaderButtonless from '../components/TopHeaderButtonless'
 import { HiOutlineHome } from 'react-icons/hi'
 import { BiPhoneCall } from 'react-icons/bi'
 import { MdEmail } from 'react-icons/md';
+import CustomCursor from "../components/CustomCursor";
 
 import { useEffect, useState } from 'react';
 import gsap from 'gsap'
@@ -21,6 +22,7 @@ function Contact() {
   return (
     <>
       <div className="font-frank dark">
+      <CustomCursor/>
         <TopHeaderButtonless title="Contact Us" />
         <section className="text-white lg:pt-24 pb-24 bg-gray-900 body-font relative">
           <div className="contact-box container  px-5 mx-auto grid grid-cols-1 md:flex gap-10 lg:flex">
@@ -61,6 +63,7 @@ function Contact() {
                   </div>
 
                   <p className='text-sm font-l'>+1 437-998-8226</p>
+                  <p className='text-sm font-l'>+1 647-502-6701</p>
                 </div>
               </div>
               <hr />

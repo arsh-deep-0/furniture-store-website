@@ -183,7 +183,7 @@ export default function Testimonials() {
             </div>
           </div>
           {/* END Feedback */}
-          <div className="flex justify-center">
+          <div className="hoverable flex justify-center">
   <a
     href="/reviews"
     className="inline-flex justify-center items-center space-x-2 border font-semibold rounded-lg px-6 py-2 leading-6 border-blue-700 bg-blue-700 text-white hover:text-white hover:bg-blue-600 hover:border-blue-600 focus:ring focus:ring-blue-400 focus:ring-opacity-50 active:bg-blue-700 active:border-blue-700 dark:focus:ring-blue-400 dark:focus:ring-opacity-90"

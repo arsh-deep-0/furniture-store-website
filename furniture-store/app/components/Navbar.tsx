@@ -133,32 +133,32 @@ function Navbar() {
           </div>
           <div className="navbar-modal flex flex-col text-center md:flex-row md:items-center md:justify-between space-y-4 md:space-y-0 md:space-x-10 ">
             <nav className=" flex flex-col items-center justify-center  lg:space-y-0 lg:flex-row lg:items-center lg:justify-center lg:space-x-3 md:flex-row md:space-x-6 sm:flex-col sm:space-y-6">
-              <a href="/" className={`hidden text-lg  text-gray-100 hover:text-blue-600 dark:text-gray-100 dark:hover:text-blue-400 `}>
+              <a href="/" className={`hidden text-lg  text-gray-100 -600 dark:text-gray-100 dark:-400 `}>
                 <span>Home</span>
               </a>
 
-              <a href="/" className={` text-lg  text-gray-100 hover:text-blue-600 dark:text-gray-100 dark:hover:text-blue-400 `}>
-                <span>Home</span>
+              <a href="/" className={`hoverable text-lg  text-gray-100 -600 dark:text-gray-100 dark:-400 `}>
+                <span className='hoverable'>Home</span>
               </a>
 
-              <a href="/about" className={` text-lg  text-gray-100 hover:text-blue-600 dark:text-gray-100 dark:hover:text-blue-400 `}>
+              <a href="/about" className={`hoverable text-lg  text-gray-100 -600 dark:text-gray-100 dark:-400 `}>
                 <span>About</span>
               </a>
 
-              <a href="/gallery" className={` text-lg  text-gray-100 hover:text-blue-600 dark:text-gray-100 dark:hover:text-blue-400 `}>
+              <a href="/gallery" className={`hoverable text-lg  text-gray-100 -600 dark:text-gray-100 dark:-400 `}>
                 <span>Gallery</span>
               </a>
 
-              <a href="/services" className={` text-lg  text-gray-100 hover:text-blue-600 dark:text-gray-100 dark:hover:text-blue-400 `}>
+              <a href="/services" className={`hoverable text-lg  text-gray-100 -600 dark:text-gray-100 dark:-400 `}>
                 <span>Services</span>
               </a>
 
-              <a href="/contact" className={` text-lg  text-gray-100 hover:text-blue-600 dark:text-gray-100 dark:hover:text-blue-400 `}>
+              <a href="/contact" className={`hoverable text-lg  text-gray-100 -600 dark:text-gray-100 dark:-400 `}>
                 <span>ContactUs</span>
               </a>
 
             </nav>
-            <div className=" rounded-lg flex items-center justify-center space-x-2">
+            <div className="hoverable rounded-lg flex items-center justify-center space-x-2">
               <a href="mailto:univkitchens@gmail.com" className="button text-normal inline-flex  justify-center items-center space-x-2 border  rounded-md px-3 py-1 leading-6 border-blue-700 bg-blue-700 text-white hover:text-white hover:bg-blue-600 hover:border-blue-600 focus:ring active:bg-blue-700 active:border-blue-700 focus:ring-blue-400 focus:ring-opacity-90">
                 <span>Email Us</span>
                 <MdEmail />
@@ -173,27 +173,27 @@ function Navbar() {
           <div className='navbar-modal-2-div-1 min-h-full bg-blue-600 px-5'>
             <ImCross className='cross ' id='cross' onClick={hideNavbar}></ImCross>
             <nav className=" flex flex-col items-center justify-center  lg:space-y-0 lg:flex-row lg:items-center lg:justify-center lg:space-x-3 md:flex-row md:space-x-6 sm:flex-col sm:space-y-8">
-              <a href="/" className={`hidden text-xl  text-gray-100 hover:text-blue-600 dark:text-gray-100 dark:hover:text-blue-400 `}>
+              <a href="/" className={`hidden text-xl  text-gray-100 -600 dark:text-gray-100 dark:-400 `}>
                 <span className='new-nav font-forum text-xl'>Home</span>
               </a>
 
-              <a href="/" className={` text-sm  text-gray-100 hover:text-blue-600 dark:text-gray-100 dark:hover:text-blue-400 `}>
+              <a href="/" className={`hoverable text-sm  text-gray-100 -600 dark:text-gray-100 dark:-400 `}>
                 <span className='new-nav font-forum text-xl'>Home</span>
               </a>
 
-              <a href="/about" className={` text-sm  text-gray-100 hover:text-blue-600 dark:text-gray-100 dark:hover:text-blue-400 `}>
+              <a href="/about" className={`hoverable text-sm  text-gray-100 -600 dark:text-gray-100 dark:-400 `}>
                 <span className='new-nav font-frank text-xl'>About</span>
               </a>
 
-              <a href="/gallery" className={` text-sm  text-gray-100 hover:text-blue-600 dark:text-gray-100 dark:hover:text-blue-400 `}>
+              <a href="/gallery" className={` text-sm  text-gray-100 -600 dark:text-gray-100 dark:-400 `}>
                 <span className='new-nav font-frank text-xl'>Gallery</span>
               </a>
 
-              <a href="/services" className={` text-sm  text-gray-100 hover:text-blue-600 dark:text-gray-100 dark:hover:text-blue-400 `}>
+              <a href="/services" className={` text-sm  text-gray-100 -600 dark:text-gray-100 dark:-400 `}>
                 <span className='new-nav font-frank text-xl'>Services</span>
               </a>
 
-              <a href="/contact" className={` text-sm  text-gray-100 hover:text-blue-600 dark:text-gray-100 dark:hover:text-blue-400 `}>
+              <a href="/contact" className={` text-sm  text-gray-100 -600 dark:text-gray-100 dark:-400 `}>
                 <span className='new-nav font-frank text-xl'>ContactUs</span>
               </a>
 
@@ -220,11 +220,11 @@ function Navbar() {
               </h1>
 
 
-              <h4 className="font-medium text-blue-500 hover:text-blue-400 text-base">
+              <h4 className="font-medium text-blue-500 -400 text-base">
                 univkitchens@gmail.com
               </h4>
               <h1 className="text-white  text-lg">
-                +1 437-998-8226
+                +1 437-998-8226 <br />+1 647-502-6701
               </h1>
               <h4 className="text-white  text-sm">
                 857 Fenmar Drive , North York<br />Toronto Ontario, M9L1C8

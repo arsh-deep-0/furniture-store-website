@@ -6,6 +6,7 @@ import TopHeaderButtonless from '../components/TopHeaderButtonless'
 import gsap from 'gsap'
 import { useEffect, useRef } from 'react';
 import { ScrollTrigger } from 'gsap/ScrollTrigger';
+import CustomCursor from "../components/CustomCursor";
 
 gsap.registerPlugin(ScrollTrigger);
 
@@ -29,6 +30,7 @@ function Services() {
     return (
         <>
         <div className="font-frank dark">
+        <CustomCursor/>
             <TopHeaderButtonless title="  Services" />
 
             {/* Blog List Section: In Grid */}
