@@ -103,7 +103,7 @@ export default function LargeImageCarousal() {
                             </div>
 
 
-                            <p className={`left-0  text-center read-more-content ${isOpen ? 'open' : ''} h-auto absolute text-lg`}>
+                            <p className={`left-0  text-center read-more-content ${isOpen ? 'open' : ''} h-auto absolute text-base`}>
                                 With immense experience and knowledge, Universal Kitchens is the premier kitchen remodeling services provider that has been providing these services for over 5 years now.
                             </p>
                             {/* END Item Overlay */}
@@ -134,7 +134,7 @@ export default function LargeImageCarousal() {
                             </div>
 
 
-                            <p className={`left-0  text-center read-more-content ${isOpen2 ? 'open' : ''} h-auto absolute text-lg`}>
+                            <p className={`left-0  text-center read-more-content ${isOpen2 ? 'open' : ''} h-auto absolute text-base`}>
                                 We understands that your kitchen needs to be changed really fast, but in order to make that happen, you need to hire the best Brampton Kitchen Designers.
                             </p>
                             {/* END Item Overlay */}
@@ -164,8 +164,8 @@ export default function LargeImageCarousal() {
                             </div>
                             {/* Item Overlay */}
 
-                            <p className={`left-0  text-center read-more-content ${isOpen3 ? 'open' : ''} h-auto absolute text-lg`}>
-                                One of the key elements that you need to focus on in the kitchen is the cabinets that you have to store all your utensils and kitchen essentials. Without the cabinets, your kitchen would look empty and you will have a hard time storing all your goods and other kitchen things.
+                            <p className={`left-0  text-center read-more-content ${isOpen3 ? 'open' : ''} h-auto absolute text-base`}>
+                                One of the key elements that you need to focus on is the cabinets that you have to store all your utensils and kitchen essentials. Without them, your kitchen would look empty and you will have a hard time storing all your goods and other kitchen things.
                             </p>
                             {/* END Item Overlay */}
                         </div>
@@ -194,7 +194,7 @@ export default function LargeImageCarousal() {
                             {/* Item Overlay */}
 
 
-                            <p className={`left-0  text-center read-more-content ${isOpen4 ? 'open' : ''} h-auto absolute text-lg`}>
+                            <p className={`left-0  text-center read-more-content ${isOpen4 ? 'open' : ''} h-auto absolute text-base`}>
                                 Spend a good time with your friends, colleagues, and family members at a bar that they have never seen before. We know that designing a bar is something that requires a lot of time and planning, but you want to shorten that by hiring our Bar Cabinets in Brampton.
                             </p>
 
