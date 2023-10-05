@@ -317,3 +317,7 @@
 
     pointer-events: none;
   }
+
+  .images-container{
+    width: 400%;
+  }
