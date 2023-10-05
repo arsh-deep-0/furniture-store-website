@@ -33,7 +33,7 @@ export default function LargeImageCarousal() {
     const moveLeft = () => {
       gsap.to('.images-container', {
         duration: 0.5,
-        x:-3*window.innerWidth,
+        x:-2*window.innerWidth,
        
        
         ease: 'sine.out',
@@ -43,7 +43,7 @@ export default function LargeImageCarousal() {
           endTrigger: '.images-container',
           start: 'top 15%',
           end: 'top -150%',
-          scrub:1,
+          scrub:3,
           pin:true,
         }
       });
