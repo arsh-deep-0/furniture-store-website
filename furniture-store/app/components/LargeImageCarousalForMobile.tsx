@@ -33,7 +33,7 @@ export default function LargeImageCarousal() {
     const moveLeft = () => {
       gsap.to('.images-container', {
         duration: 0.5,
-        x:-2*window.innerWidth,
+        x:-1.35*window.innerWidth,
        
        
         ease: 'sine.out',
@@ -41,10 +41,10 @@ export default function LargeImageCarousal() {
         scrollTrigger: {
           trigger: '.images-container',
           endTrigger: '.images-container',
-          start: 'top 20%',
-          end: 'top -80%',
+          start: 'top 30%',
+          end: 'top 5%',
           scrub:3,
-          pin:true,
+          
         }
       });
     }
@@ -58,8 +58,10 @@ export default function LargeImageCarousal() {
   return (
     <>
       {/* Image Overlays Section: Overlay Slide Top */}
+     
+
       <div className="relative dark  bg-white dark:text-gray-100 dark:bg-gray-900">
-        <div className="   py-16 lg:px-8 lg:pb-8 ">
+        <div className=" container lg:min-w-100  mx-auto px-4 py-16 lg:px-8 lg:pb-8 ">
           {/* Heading */}
           <div className="text-center">
             <div className="font-an  text-sm uppercase font-bold tracking-wider mb-1 text-blue-600 dark:text-blue-500">
@@ -70,7 +72,8 @@ export default function LargeImageCarousal() {
 
           </div>
           {/* END Heading */}
-          <div className="images-container overflow-hidden bg-white py-4 px-4 rounded-md flex flex-nowrap md:grid-cols-4 gap-8 md:gap-8 lg:gap-12 " >
+          
+<div className="images-container overflow-hidden bg-white py-4 px-4 rounded-md flex flex-nowrap md:grid-cols-4 gap-8 md:gap-8 lg:gap-12 " >
             {/* Item */}
 
 
@@ -78,7 +81,7 @@ export default function LargeImageCarousal() {
               onMouseEnter={toggleReadMore}
               onMouseLeave={toggleReadMore}
               onSelect={toggleReadMore} tabIndex={0}
-              style={{ height:'30rem' }}
+              style={{ height:'24rem' }}
               >
 
               <div className="absolute w-full text-center p-4  ">
@@ -112,7 +115,7 @@ export default function LargeImageCarousal() {
               onMouseEnter={toggleReadMore2}
               onMouseLeave={toggleReadMore2} 
               onSelect={toggleReadMore2} tabIndex={0}
-              style={{ height:'30rem'  }}>
+              style={{ height:'24rem'  }}>
               <div className="absolute w-full text-center p-4  ">
 
                 <h4 className="font-semibold text-2xl text-white">
@@ -143,7 +146,7 @@ export default function LargeImageCarousal() {
               onMouseEnter={toggleReadMore3}
               onMouseLeave={toggleReadMore3} 
               onSelect={toggleReadMore3} tabIndex={0}
-              style={{ height:'30rem'  }}>
+              style={{ height:'24rem'  }}>
               <div className="absolute w-full text-center p-4   ">
 
                 <h4 className="font-semibold  text-2xl text-white">
@@ -173,7 +176,7 @@ export default function LargeImageCarousal() {
               onMouseEnter={toggleReadMore4}
               onMouseLeave={toggleReadMore4}
               onSelect={toggleReadMore4}  tabIndex={0}
-              style={{ height:'30rem'  }}>
+              style={{ height:'24rem'  }}>
               <div className="absolute w-full text-center p-4  ">
 
                 <h4 className="font-semibold text-2xl text-white">
@@ -206,4 +209,3 @@ export default function LargeImageCarousal() {
     </>
   )
 }
-
