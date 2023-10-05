@@ -41,7 +41,7 @@ export default function LargeImageCarousal() {
         scrollTrigger: {
           trigger: '.images-container',
           endTrigger: '.images-container',
-          start: 'top 25%',
+          start: 'top 20%',
           end: 'top -80%',
           scrub:3,
           pin:true,
