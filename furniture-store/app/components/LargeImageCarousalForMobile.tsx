@@ -42,7 +42,7 @@ export default function LargeImageCarousal() {
           trigger: '.images-container',
           endTrigger: '.images-container',
           start: 'top 25%',
-          end: 'top -150%',
+          end: 'top -80%',
           scrub:3,
           pin:true,
         }
