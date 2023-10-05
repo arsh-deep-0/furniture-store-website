@@ -41,7 +41,7 @@ export default function LargeImageCarousal() {
         scrollTrigger: {
           trigger: '.images-container',
           endTrigger: '.images-container',
-          start: 'top 15%',
+          start: 'top 25%',
           end: 'top -150%',
           scrub:3,
           pin:true,
@@ -78,7 +78,7 @@ export default function LargeImageCarousal() {
               onMouseEnter={toggleReadMore}
               onMouseLeave={toggleReadMore}
               onSelect={toggleReadMore} tabIndex={0}
-              style={{ height:'36rem' }}
+              style={{ height:'30rem' }}
               >
 
               <div className="absolute w-full text-center p-4  ">
@@ -112,7 +112,7 @@ export default function LargeImageCarousal() {
               onMouseEnter={toggleReadMore2}
               onMouseLeave={toggleReadMore2} 
               onSelect={toggleReadMore2} tabIndex={0}
-              style={{ height:'36rem'  }}>
+              style={{ height:'30rem'  }}>
               <div className="absolute w-full text-center p-4  ">
 
                 <h4 className="font-semibold text-2xl text-white">
@@ -143,7 +143,7 @@ export default function LargeImageCarousal() {
               onMouseEnter={toggleReadMore3}
               onMouseLeave={toggleReadMore3} 
               onSelect={toggleReadMore3} tabIndex={0}
-              style={{ height:'36rem'  }}>
+              style={{ height:'30rem'  }}>
               <div className="absolute w-full text-center p-4   ">
 
                 <h4 className="font-semibold  text-2xl text-white">
@@ -173,7 +173,7 @@ export default function LargeImageCarousal() {
               onMouseEnter={toggleReadMore4}
               onMouseLeave={toggleReadMore4}
               onSelect={toggleReadMore4}  tabIndex={0}
-              style={{ height:'36rem'  }}>
+              style={{ height:'30rem'  }}>
               <div className="absolute w-full text-center p-4  ">
 
                 <h4 className="font-semibold text-2xl text-white">
