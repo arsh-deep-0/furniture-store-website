@@ -78,7 +78,7 @@ const TextRevealingEffect = () => {
     return (
 
         <div className="">
-            <p className='text-reveal dark h-24 text-center text-3xl font-m lg:text-5xl font-black text-white sm:text-3xl sm:font-ans'></p>
+            <p className='text-reveal dark h-24 text-center text-3xl font-m lg:text-6xl font-black text-white sm:text-3xl sm:font-ans'></p>
         </div>
 
     );
