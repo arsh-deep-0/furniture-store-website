@@ -143,7 +143,7 @@ export default function Features() {
               </p>
             </div>
           </div>
-          {/* END Features */}
+          {/* END Featuress */}
         </div>
       </div>
       {/* END Features Section: Modern with Icons */}

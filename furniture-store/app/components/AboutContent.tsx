@@ -179,7 +179,7 @@ export default function AboutContent() {
                 <div className="absolute lg:bg-blue-900 bottom-0 right-0 w-40 h-40 lg:w-72 lg:h-72  border border-blue-100 rounded-full -mb-20 -mr-14 dark:border-blue-950" />
                 <div className="absolute inset-0 rounded-xl -m-6 -rotate-2 bg-gray-200 dark:bg-gray-500" />
                 <div className="absolute inset-0 rounded-xl -m-6 rotate-1 bg-blue-800 bg-opacity-75 shadow-inner dark:bg-blue-900 " />
-                <img src="https://dndkitchencabinets.com/wp-content/uploads/2022/06/About2_01.jpg" className="image relative rounded-lg mx-auto shadow-lg" alt="Hero Image" />
+                <img src="https://img.freepik.com/free-photo/young-people-discussing-papers_23-2147668941.jpg?size=626&ext=jpg&ga=GA1.1.2082586625.1697056622&semt=ais" className="image relative rounded-lg mx-auto shadow-lg" alt="Hero Image" />
               </div>
             </div>
           </div>
