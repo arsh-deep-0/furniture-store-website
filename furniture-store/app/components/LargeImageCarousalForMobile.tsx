@@ -42,8 +42,8 @@ export default function LargeImageCarousal() {
                     trigger: '.images-container',
                     endTrigger: '.images-container',
                     start: 'top 32%',
-                    end: 'top 7%',
-                    scrub: 3,
+                    end: 'top 5%',
+                    scrub: true,
 
                 }
             });
