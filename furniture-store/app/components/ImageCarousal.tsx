@@ -14,12 +14,12 @@ export default function ImageCarousal({ imageUrls }: ImageCarousalProps) {
             {imageUrls.map((url, index) => (
               <div
                 key={index}
-                className="image relative group rounded-sm bg-blue-900 overflow-hidden focus:outline-none focus:ring-4 focus:ring-blue-500 focus:ring-opacity-50 focus:ring-offset-2 focus-within:ring-4 focus-within:ring-blue-500 focus-within:ring-opacity-50 focus-within:ring-offset-2 dark:ring-offset-gray-900"
+                className="image relative group rounded-sm  overflow-hidden focus:outline-none focus:ring-4 focus:ring-blue-500 focus:ring-opacity-50 focus:ring-offset-2 focus-within:ring-4 focus-within:ring-blue-500 focus-within:ring-opacity-50 focus-within:ring-offset-2 dark:ring-offset-gray-900"
                 tabIndex={0}
               >
                 <img className="image" src={url} alt={`Image ${index + 1}`} />
                 {/* Item Overlay */}
-                <div className="absolute inset-0 rounded flex flex-col items-center justify-center bg-gray-900 bg-opacity-80 transition duration-300 ease-out opacity-0 translate-y-full group-hover:opacity-100 group-focus:opacity-100 group-focus-within:opacity-100 group-hover:translate-y-0 group-focus:translate-y-0 group-focus-within:translate-y-0">
+                <div className="absolute inset-0 rounded flex flex-col items-center justify-center bg-gray-900 bg-opacity-80 transition duration-300 ease-out opacity-0 translate-y-full  group-focus:opacity-100 group-focus-within:opacity-100  group-focus:translate-y-0 group-focus-within:translate-y-0">
                   <div className="text-center">
                     <h4 className="font-semibold text-lg text-white">
                       Kitchen Design {index + 1}
@@ -29,7 +29,7 @@ export default function ImageCarousal({ imageUrls }: ImageCarousalProps) {
                     </h5>
                     <a
                       href="/gallery"
-                      className="inline-flex justify-center items-center space-x-2 border font-semibold rounded-lg px-3 py-2 leading-5 text-sm border-blue-600 bg-blue-600 text-white hover:text-white hover:bg-blue-700 hover:border-blue-700 focus:ring focus:ring-blue-400 focus:ring-opacity-50 active:bg-blue-600 active:border-blue-600"
+                      className="inline-flex justify-center items-center space-x-2 border font-semibold rounded-lg px-3 py-2 leading-5 text-sm border-blue-600 bg-blue-600 text-white focus:ring focus:ring-blue-400 focus:ring-opacity-50 active:bg-blue-600 active:border-blue-600"
                     >
                       <span>More Info</span>
                       <svg

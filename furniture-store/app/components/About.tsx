@@ -54,7 +54,7 @@ aboutUsElements.forEach((element, index) => {
     scrollTrigger: {
       trigger: element, // Use the current element as the trigger
       start: 'top 96%',
-      end: 'bottom 30%',
+      end: 'bottom 20%',
       toggleActions: `restart reverse restart reverse`,
     },
   });
@@ -118,8 +118,8 @@ aboutUsElements.forEach((element, index) => {
             <h3 className="text-lg leading-relaxed font-medium text-gray-300 mb-6 dark:text-gray-300">
               Your kitchen is an expression of who you are, and its design should match your lifestyle. Whether you have traditional tastes or desire a modern feel, we can design your dream kitchen to suit any purpose.
             </h3>
-            <a href="#" className="inline-flex justify-center items-center space-x-2 border font-semibold rounded-lg px-6 py-3 leading-6 border-gray-700 bg-gray-800 text-gray-300 hover:border-gray-300 hover:text-gray-200 hover:shadow-sm focus:ring focus:ring-gray-300 focus:ring-opacity-40 active:border-gray-700 active:shadow-none dark:border-gray-700 dark:bg-gray-800 dark:text-gray-300 dark:hover:border-gray-600 dark:hover:text-gray-200 dark:focus:ring-gray-600 dark:focus:ring-opacity-40 dark:active:border-gray-700">
-              <span>Continue Reading</span>
+            <a href="/gallery" className="inline-flex font-bold justify-center items-center space-x-2 border  rounded-lg px-6 py-3 leading-6 border-gray-700 bg-gray-800 text-gray-300 hover:border-gray-300 hover:text-gray-200 hover:shadow-sm focus:ring focus:ring-gray-300 focus:ring-opacity-40 active:border-gray-700 active:shadow-none dark:border-gray-700 dark:bg-gray-800 dark:text-gray-300 dark:hover:border-gray-600 dark:hover:text-gray-200 dark:focus:ring-gray-600 dark:focus:ring-opacity-40 dark:active:border-gray-700">
+              <span>Our Gallery</span>
               <svg className="hi-mini hi-arrow-right inline-block w-5 h-5 text-blue-600" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor" aria-hidden="true"><path fillRule="evenodd" d="M3 10a.75.75 0 01.75-.75h10.638L10.23 5.29a.75.75 0 111.04-1.08l5.5 5.25a.75.75 0 010 1.08l-5.5 5.25a.75.75 0 11-1.04-1.08l4.158-3.96H3.75A.75.75 0 013 10z" clipRule="evenodd" /></svg>
             </a>
           </div>

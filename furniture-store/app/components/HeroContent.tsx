@@ -8,6 +8,7 @@ import Modal from './Modal'
 import SocialMediaModal from './SocialMediaModal'
 import '../css/app.css'
 import { ScrollTrigger } from 'gsap/ScrollTrigger';
+import {BiSolidPhoneCall} from 'react-icons/bi'
 
 gsap.registerPlugin(ScrollTrigger);
 
@@ -101,8 +102,8 @@ function HeroContent() {
                 <span>Book Appointment</span>
                 <svg className="hi-mini hi-arrow-right inline-block w-5 h-5 opacity-50" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor" aria-hidden="true"><path fillRule="evenodd" d="M3 10a.75.75 0 01.75-.75h10.638L10.23 5.29a.75.75 0 111.04-1.08l5.5 5.25a.75.75 0 010 1.08l-5.5 5.25a.75.75 0 11-1.04-1.08l4.158-3.96H3.75A.75.75 0 013 10z" clipRule="evenodd" /></svg>
               </a>
-              <a href="/about" className="hoverable font-frank text-normal inline-flex justify-center items-center space-x-2 border  rounded-lg px-6 py-2.5 leading-6 hover:shadow-sm focus:ring active:shadow-none border-gray-200 bg-transparent text-gray-300 hover:border-gray-600 hover:text-gray-200 focus:ring-gray-600 focus:ring-opacity-40 active:border-gray-700">
-                <span>Learn More</span>
+              <a href="tel:+1 437-998-8226" className="hoverable font-frank text-normal inline-flex justify-center items-center space-x-2 border  rounded-lg px-6 py-2.5 leading-6 hover:shadow-sm focus:ring active:shadow-none border-gray-200 bg-transparent text-gray-300 hover:border-gray-600 hover:text-gray-200 focus:ring-gray-600 focus:ring-opacity-40 active:border-gray-700">
+                <span className='flex gap-1 '>Give us a call<BiSolidPhoneCall className='mt-1'></BiSolidPhoneCall> </span>
               </a>
             </div>
           </div>
