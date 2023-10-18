@@ -41,8 +41,8 @@ export default function Statistics() {
       trigger: '.stat-box',
       endTrigger:'.stat-box',
       start: 'top 90%',
-    
-      // toggleActions: 'play none none none',
+      end:'bottom 20%',
+      toggleActions: 'restart reverse restart reverse',
       onEnter: () => {
         // Start the interval when the scroll trigger is entered
         interval = setInterval(()=>{increaseNumber([70,80,90])}, 15);
